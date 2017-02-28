@@ -136,6 +136,7 @@ $(document).ready(function(){
 	});
 	$('.s_form__txt li').click(function(){
 		$(this).addClass('current').siblings().removeClass('current');
+		$(this).closest('.s_form__slider').find('#age').val($(this).text());
 	});
 
 
@@ -239,6 +240,8 @@ $(document).ready(function(){
 					data: it.serialize()
 				}).done(function () {
 					$('.popup').removeClass('visible');
+					var px = window.pageYOffset;
+					$('.popup').css('top',px);
 					$('.popup._thnx, .overlay').addClass('visible');
 					setTimeout(function () {
 						if ($('.popup._thnx').hasClass('visible')) {
