@@ -785,6 +785,34 @@ article{
 	background-position: center;
 	background-size: cover;
 	overflow: hidden;
+	position: relative;
+	@media screen and (min-width: 1110px){
+		background: #fff url() 0 0 no-repeat;
+	}
+	video{
+		z-index: 0;
+		width: 100%;
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		min-width: 1920px;
+		min-height: 905px;
+		height: auto;
+	}
+	&__overlay{
+		position: absolute;
+		left: 0;
+		top: 0;
+		width: 100%;
+	    background: rgba(0, 0, 0, 0.7);
+	    z-index: 1;
+		height: 100%;
+	}
+	.container{
+		z-index: 2;
+		position: relative;
+	}
 	&__txt{
 		max-width: 813px;
 		position: relative;
@@ -1004,6 +1032,10 @@ article{
 			margin-bottom: 20px;
 			transition: $t;
 		}
+		&--list{
+			flex-direction: column;
+			color: #fff;
+		}
 	}
 }
 .s_teachers{
@@ -1164,7 +1196,7 @@ article{
 	background-attachment: fixed;
 	background-size: auto;
 	&__body{
-		@extend ._flex_sb_fs;
+		@extend ._flex_fs_fs;
 	}
 	&__left{
 		max-width: 720px;
@@ -1189,16 +1221,21 @@ article{
 			max-height: 5500px;
 		}
 		&_head{
-			@extend ._flex_sb_fs;
+			@extend ._flex_fs_fs;
 		}
 		&_img{
 			max-width: 162px;
-			min-width: 162px;
+			max-height: 162px;
 			border-radius: 50%;
 			overflow: hidden;
 			margin-right: 35px;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			flex-shrink: 0;
 			img{
 				max-width: 100%;
+				height: auto;
 			}
 		}
 		&_text{
@@ -1875,6 +1912,18 @@ article{
 			font-size: 1.25em;
 			color: $db;
 			line-height: 1.4;
+		}
+		&--white{
+			p{
+				color: #fff;
+			}
+			ul{
+				li{
+					&:before{
+						top: 10px;
+					}
+				}
+			}
 		}
 	}
 }
