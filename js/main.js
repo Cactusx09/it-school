@@ -171,6 +171,17 @@ $(document).ready(function(){
 		}
 	}
 
+	//courses tabs
+	$('.s_courses li').click(function(){
+		var elem = $(this),
+			n = elem.index(),
+			section = elem.closest('.s_courses');
+		elem.addClass('current')
+			.siblings().removeClass('current');
+		section.nextAll('.g_blocks._courses').hide()
+			.eq(n).show();
+	});
+
 
 	//popups
 	$('._open_pop').click(function(e){
