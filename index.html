@@ -1,0 +1,694 @@
+<!doctype html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="ru"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang="ru"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9" lang="ru"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="ru"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <title>Главная</title>
+        <meta name="description" content="">
+        <meta name="keywords" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/normalize.min.css">
+        <link rel="stylesheet" href="vendor/lightslider/css/lightslider.min.css">
+        <link rel="stylesheet" href="vendor/lightgallery/css/lightgallery.min.css">
+        <link rel="stylesheet" href="css/main.css">
+
+        <script src="vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+    </head>
+    <body>
+        <!--[if lt IE 8]>
+            <p class="browserupgrade">Вы используете <strong>устаревший</strong> браузер. Пожалуйста <a href="http://browsehappy.com/">обновите ваш браузер</a></p>
+        <![endif]-->
+        <header class="header">
+        	<div class="container">
+        		<div class="header__top">
+        			<a href="/" class="header__logo"><svg id="logo" xmlns="http://www.w3.org/2000/svg" width="338" height="39" viewBox="0 0 338 39">
+        			<defs>
+        			    <style>
+        			      .cls-1 {
+        			        fill: #0074ff;
+        			      }
+
+        			      .cls-1, .cls-2 {
+        			        fill-rule: evenodd;
+        			      }
+
+        			      .cls-2 {
+        			        fill: #a6a8aa;
+        			      }
+
+        			      .cls-3 {
+        			        font-size: 26.526px;
+        			        fill: #001025;
+        			        font-weight: 800;
+        			      }
+
+        			      .cls-3, .cls-4 {
+        			        font-family: Roboto;
+        			      }
+
+        			      .cls-4 {
+        			        font-size: 16px;
+        			        fill: #4e4e4e;
+        			      }
+        			    </style>
+        			  </defs>
+        			  <path id="Rounded_Rectangle_30" data-name="Rounded Rectangle 30" class="cls-1" d="M441.161,52H414.643a1.6,1.6,0,0,1-1.607-1.592V41.652L405,32.1l16.875,8.755,20.893-9.551v19.1A1.6,1.6,0,0,1,441.161,52Z" transform="translate(-405 -13)"/>
+        			  <path class="cls-2" d="M421.875,36.877L413.036,32.1V14.59A1.6,1.6,0,0,1,414.643,13h26.518a1.6,1.6,0,0,1,1.607,1.592v8.755H450Z" transform="translate(-405 -13)"/>
+        			  <text id="ШКОЛА_ПРОГРАММИРОВАНИЯ" data-name="ШКОЛА ПРОГРАММИРОВАНИЯ" class="cls-3" transform="translate(53.684 16.929) scale(0.676 0.679)">ШКОЛА ПРОГРАММИРОВАНИЯ</text>
+        			  <text id="Курсы_для_школьников_и_подростков" data-name="Курсы для школьников и подростков" class="cls-4" x="54.001" y="36">Курсы для школьников и подростков</text>
+        			</svg></a>
+        			<div class="header__right">
+        				<a href="https://www.google.com.ua/maps?source=tldso" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="19"><path d="M7 0C3.1 0 0 3.1 0 7 0 8 0.2 9 0.6 9.8 2.4 13.7 5.7 17.7 6.7 18.9 6.8 18.9 6.9 19 7 19 7.1 19 7.2 18.9 7.3 18.9 8.3 17.7 11.6 13.7 13.4 9.8 13.8 9 14 8 14 7 14 3.1 10.9 0 7 0ZM7 10.6C5 10.6 3.4 9 3.4 7 3.4 5 5 3.4 7 3.4 9 3.4 10.6 5 10.6 7 10.6 9 9 10.6 7 10.6Z" fill="rgb(0, 116, 255)"/></svg><span>г. Клин, улица Захватаева, 4</span></a>
+						<a href="tel:84962499684"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18"><path d="M18 14.2C18 14.5 17.9 14.8 17.7 15L15.2 17.5C15.1 17.6 14.9 17.7 14.7 17.8 14.6 17.9 14.4 18 14.2 18 14.2 18 14.1 18 14.1 18 14 18 13.9 18 13.8 18 13.6 18 13.2 18 12.7 17.9 12.1 17.8 11.5 17.6 10.7 17.3 9.9 16.9 9 16.5 8 15.8 7 15.2 6 14.3 4.9 13.1 4 12.3 3.2 11.4 2.7 10.6 2.1 9.8 1.6 9.1 1.2 8.4 0.9 7.7 0.6 7.1 0.4 6.5 0.3 6 0.1 5.5 0.1 5.1 0 4.7 0 4.4 0 4.2 0 3.9 0 3.8 0 3.8 0 3.6 0.1 3.4 0.2 3.3 0.3 3.1 0.4 2.9 0.5 2.8L3.1 0.3C3.2 0.1 3.4 0 3.7 0 3.8 0 4 0 4.1 0.1 4.2 0.2 4.3 0.4 4.4 0.5L6.5 4.4C6.6 4.6 6.6 4.8 6.6 5 6.5 5.3 6.4 5.5 6.2 5.6L5.3 6.6C5.3 6.6 5.3 6.6 5.2 6.7 5.2 6.8 5.2 6.8 5.2 6.8 5.3 7.1 5.4 7.4 5.5 7.8 5.7 8.1 5.9 8.4 6.3 8.9 6.6 9.3 7 9.8 7.6 10.4 8.2 11 8.7 11.4 9.1 11.8 9.6 12.1 9.9 12.3 10.2 12.5 10.5 12.6 10.8 12.7 10.9 12.7L11.2 12.8C11.2 12.8 11.2 12.8 11.3 12.8 11.4 12.7 11.4 12.7 11.4 12.7L12.5 11.6C12.7 11.4 13 11.3 13.3 11.3 13.5 11.3 13.7 11.3 13.8 11.4L13.8 11.4 17.5 13.6C17.8 13.7 17.9 14 18 14.2Z" fill="rgb(0, 116, 255)"/></svg><span>8 (49624) 9-96-84</span></a>
+        			</div>
+        		</div>
+        	</div>
+        	<div class="header__nav">
+				<div class="header__nav_cont container">
+					<nav>
+						<a href="#">Курсы</a>
+						<a href="#">Дневник</a>
+						<a href="#">FAQ</a>
+						<a href="#">О нас</a>
+						<a href="#">Контакты</a>
+					</nav>
+					<div class="header__nav_btn _open_pop" data-name="call"><span>Заказать звонок</span></div>
+					<div class="header__close_nav">&times;</div>
+				</div>
+				<div class="header__nav_hamb"><svg xmlns="http://www.w3.org/2000/svg" width="30" viewBox="0 0 487.3 487.3"><path d="M487.2 69.7c0 12.9-10.5 23.4-23.4 23.4h-322c-12.9 0-23.4-10.5-23.4-23.4s10.5-23.4 23.4-23.4h322.1C476.8 46.4 487.2 56.8 487.2 69.7zM463.9 162.3H141.8c-12.9 0-23.4 10.5-23.4 23.4s10.5 23.4 23.4 23.4h322.1c12.9 0 23.4-10.5 23.4-23.4C487.2 172.8 476.8 162.3 463.9 162.3zM463.9 278.3H141.8c-12.9 0-23.4 10.5-23.4 23.4s10.5 23.4 23.4 23.4h322.1c12.9 0 23.4-10.5 23.4-23.4C487.2 288.8 476.8 278.3 463.9 278.3zM463.9 394.3H141.8c-12.9 0-23.4 10.5-23.4 23.4s10.5 23.4 23.4 23.4h322.1c12.9 0 23.4-10.5 23.4-23.4C487.2 404.8 476.8 394.3 463.9 394.3zM38.9 30.8C17.4 30.8 0 48.2 0 69.7s17.4 39 38.9 39 38.9-17.5 38.9-39S60.4 30.8 38.9 30.8zM38.9 146.8C17.4 146.8 0 164.2 0 185.7s17.4 38.9 38.9 38.9 38.9-17.4 38.9-38.9S60.4 146.8 38.9 146.8zM38.9 262.8C17.4 262.8 0 280.2 0 301.7s17.4 38.9 38.9 38.9 38.9-17.4 38.9-38.9S60.4 262.8 38.9 262.8zM38.9 378.7C17.4 378.7 0 396.1 0 417.6s17.4 38.9 38.9 38.9 38.9-17.4 38.9-38.9C77.8 396.2 60.4 378.7 38.9 378.7z" fill="#7cb342"/></svg></div>
+			</div>
+        </header>
+		<div class="s_main" style="background-image:url('images/bg/1.jpg')">
+			<div class="container">
+				<div class="s_main__txt">
+					<h2>Курсы робототехники</h2>
+					<h1>LEGO WEDO ДЛЯ ДЕТЕЙ 6-10 ЛЕТ</h1>
+					<small>12 увлекательных занятий по конструированию и програмированию</small>
+					<p>LEGO-робототехника — это не сборка примитивного конструктора, а сложный, захватывающе интересный развивающий курс, каждое занятие на котором — увлекательное событие в жизни ребенка, получающего возможность соприкоснуться с технологиями будущего.</p>
+					<ul>
+						<li>Не имеет аналогов в нашем городе</li>
+						<li>Специалисты сертифицированны компанией Lego</li>
+						<li>Интерактивное обучение в игровой форме</li>
+					</ul>
+					<div class="s_main__txt_btns">
+						<a href=".s_form" class="btn btn_green anchor"><span>ЗАПИСАТЬСЯ НА БЕСПЛАТНОЕ ЗАНЯТИЕ</span></a>
+						<a href="#" class="btn btn_outline"><span>УЗНАТЬ ПОДРОБНЕЕ</span></a>
+					</div>
+					<div class="s_main__robot">
+						<span class="s_main__robot_el"></span>
+						<img src="images/robot.png" alt="">
+					</div>
+				</div>
+			</div>
+		</div>
+        <section class="s_about" style="background-image:url('images/bg/2.jpg')">
+        	<div class="container">
+        		<h2 class="h2 h2_blue"><span>О нас</span></h2>
+        		<div class="s_about__body">
+        			<div class="s_about__left">
+        				<p>Наша компания является сертифицированным центром обучения 1С. Все преподаватели имеют соответствующие сертификаты. По итогам обучения, дети получают официальные свидетельства от компании 1С. Преимущество наших курсов программирования в том, что мы передаем вашему ребёнку только актуальные знания, которые востребованы на рынке труда сегодня и будут необходимы ещё в течение долгих лет.</p>
+						<p>Мы проводим тренинги для педагогов Дошкольных и школьных учреждений по просьбе Управления образованием по внедрению робототехники и курсов программирования в дошкольных и школьных учреждениях.</p>
+        			</div>
+        			<div class="s_about__right">
+        				<iframe width="560" height="315" src="https://www.youtube.com/embed/WdzKJ1DwG20" frameborder="0" allowfullscreen></iframe>
+        				<a href="#" class="btn btn_green"><span>ПОДРОБНЕЕ О ШКОЛЕ</span><svg xmlns="http://www.w3.org/2000/svg" width="41" height="16"><path d="M32.8 0.3C32.5-0.1 31.9-0.1 31.6 0.3 31.2 0.6 31.2 1.2 31.6 1.5L37.9 7.1 0.9 7.1C0.4 7.1 0 7.5 0 8 0 8.5 0.4 8.9 0.9 8.9L37.9 8.9 31.6 14.4C31.2 14.8 31.2 15.3 31.6 15.7 31.9 16.1 32.5 16.1 32.8 15.7L40.7 8.6C41.1 8.3 41.1 7.7 40.7 7.3L32.8 0.3Z" fill="rgb(255, 255, 255)"/></svg></a>
+        			</div>
+        		</div>
+        	</div>
+        </section>
+        <section class="s_why" style="background-image:url('images/bg/3.jpg')">
+        	<div class="container">
+        		<h2 class="h2 h2_green"><span>Преимущества</span> нашей школы</h2>
+        		<div class="s_why__blocks">
+        			<div class="s_why__blocks_item">
+        				<div class="s_why__blocks_circle">
+        					<svg xmlns="http://www.w3.org/2000/svg" width="35" height="52"><path d="M30.6 28.6L29.8 28.6 29.8 41.6 29.8 43.3 29.8 46.8 21 46.8 21 52 8.8 52 8.8 46.8 0 46.8 0 43.3 0 41.6 0 25.1 0 15.6C0 13.2 2 11.3 4.4 11.3 5.4 11.3 6.3 11.6 7.1 12.2 7.5 10.2 9.2 8.7 11.4 8.7 13 8.7 14.4 9.6 15.2 10.9 16 10.1 17.1 9.5 18.4 9.5 19.4 9.5 20.3 9.9 21 10.4L21 4.3C21 1.9 23 0 25.4 0 27.8 0 29.8 1.9 29.8 4.3L29.8 19.9 30.6 19.9C33 19.9 35 21.9 35 24.3 35 26.7 33 28.6 30.6 28.6ZM10.5 50.3L19.3 50.3 19.3 46.8 10.5 46.8 10.5 50.3ZM1.8 45.1L8.8 45.1 21 45.1 28 45.1 28 43.3 1.8 43.3 1.8 45.1ZM7 23.4L7 22.5 7 15.6C7 14.2 5.8 13 4.4 13 2.9 13 1.8 14.2 1.8 15.6L1.8 25.1C1.8 26.6 2.9 27.7 4.4 27.7 5.8 27.7 7 26.6 7 25.1L7 23.4ZM14 13.9L14 13C14 11.6 12.8 10.4 11.4 10.4 9.9 10.4 8.8 11.6 8.8 13L8.8 15.6 8.8 22.5C8.8 22.9 8.9 23.3 9 23.7L9.1 23.8C9.4 24.2 9.7 24.6 10.1 24.8 10.1 24.8 10.1 24.8 10.1 24.8 10.3 24.9 10.5 25 10.6 25 10.7 25 10.7 25 10.7 25 10.9 25.1 11.2 25.1 11.4 25.1 11.6 25.1 11.8 25.1 12 25 12 25 12.1 25 12.1 25 12.3 25 12.5 24.9 12.7 24.8 12.7 24.8 12.7 24.8 12.7 24.8 13.1 24.6 13.4 24.2 13.6 23.8L13.7 23.7C13.9 23.3 14 22.9 14 22.5L14 13.9ZM15.1 26.2C15 26.1 14.9 26 14.9 25.9 14.8 25.8 14.7 25.7 14.6 25.6 14.6 25.5 14.6 25.5 14.6 25.5 13.8 26.3 12.6 26.9 11.4 26.9 11.1 26.9 10.8 26.8 10.6 26.8 10.5 26.8 10.3 26.7 10.2 26.7 10.1 26.7 10 26.6 9.9 26.6 9.7 26.5 9.5 26.5 9.4 26.4 9.3 26.3 9.3 26.3 9.2 26.3 9 26.2 8.9 26.1 8.7 26 8.7 25.9 8.7 25.9 8.7 25.9 8.7 25.9 8.7 26 8.7 26 8.6 26.1 8.6 26.1 8.6 26.2 8.6 26.4 8.5 26.6 8.4 26.7 8.4 26.8 8.3 26.9 8.3 27 8.2 27.2 8.2 27.3 8.1 27.4 8 27.5 7.9 27.6 7.9 27.7 7.8 27.8 7.7 28 7.6 28.1 7.5 28.2 7.4 28.2 7.3 28.3 7.2 28.4 7.1 28.5 7 28.6 6.9 28.7 6.8 28.7 6.7 28.8 6.6 28.9 6.4 28.9 6.3 29 6.2 29.1 6.1 29.1 6 29.2 5.8 29.2 5.6 29.3 5.5 29.3 5.4 29.3 5.3 29.4 5.2 29.4 4.9 29.4 4.7 29.5 4.4 29.5 4.1 29.5 3.8 29.4 3.6 29.4 3.5 29.4 3.4 29.3 3.3 29.3 3.1 29.3 3 29.2 2.8 29.2 2.7 29.1 2.6 29.1 2.5 29.1 2.4 29 2.2 28.9 2.1 28.8 2 28.8 1.9 28.7 1.9 28.7 1.8 28.6 1.8 28.6 1.8 28.6L1.8 41.6 28 41.6 28 28.6 21 28.6C20.7 28.6 20.5 28.6 20.2 28.5 20.1 28.5 20 28.5 19.9 28.4 19.8 28.4 19.6 28.4 19.5 28.3 19.4 28.3 19.2 28.2 19.1 28.1 19 28.1 19 28.1 18.9 28 18.7 27.9 18.6 27.8 18.4 27.7 18.4 27.7 18.4 27.7 18.4 27.7 18.1 27.7 17.9 27.7 17.6 27.7 17.5 27.6 17.5 27.6 17.4 27.6 17.2 27.6 17 27.5 16.8 27.4 16.7 27.4 16.7 27.4 16.6 27.3 16.4 27.3 16.2 27.2 16.1 27.1 16 27 15.9 26.9 15.8 26.9 15.7 26.8 15.6 26.7 15.5 26.6 15.3 26.5 15.2 26.4 15.1 26.2ZM21 13.9C21 12.4 19.8 11.3 18.4 11.3 16.9 11.3 15.8 12.4 15.8 13.9L15.8 22.5 15.8 23.4C15.8 23.6 15.8 23.8 15.8 23.9L15.8 24C15.9 24.3 16 24.6 16.2 24.8 16.2 24.8 16.2 24.9 16.2 24.9 16.3 25 16.4 25.1 16.5 25.2 16.5 25.2 16.6 25.2 16.6 25.3 16.7 25.4 16.7 25.4 16.8 25.5 16.8 25.4 16.8 25.4 16.8 25.3 16.7 25.2 16.7 25.1 16.7 25 16.7 24.8 16.6 24.5 16.6 24.3 16.6 21.9 18.6 19.9 21 19.9L21 13.9ZM28 4.3C28 2.9 26.8 1.7 25.4 1.7 23.9 1.7 22.8 2.9 22.8 4.3L22.8 13.9 22.8 19.9 28 19.9 28 4.3ZM30.6 21.7L29.8 21.7 22.8 21.7 21 21.7C19.6 21.7 18.4 22.8 18.4 24.3 18.4 24.4 18.4 24.6 18.4 24.8 18.4 24.8 18.4 24.8 18.4 24.8 18.6 25.3 18.8 25.8 19.3 26.2L19.3 26.2C19.5 26.4 19.8 26.6 20.1 26.7L20.1 26.7C20.2 26.7 20.4 26.8 20.5 26.8 20.7 26.8 20.8 26.9 21 26.9L29.8 26.9 30.6 26.9C32.1 26.9 33.3 25.7 33.3 24.3 33.3 22.8 32.1 21.7 30.6 21.7ZM9.6 39.9C9.1 39.9 8.8 39.5 8.8 39L8.8 33.3 6.7 35.3C6.4 35.6 5.8 35.6 5.5 35.3 5.2 34.9 5.2 34.4 5.5 34.1L8.8 30.8C9.1 30.5 9.5 30.4 9.9 30.6 10.3 30.7 10.5 31.1 10.5 31.5L10.5 39C10.5 39.5 10.1 39.9 9.6 39.9Z" fill="rgb(255, 255, 255)"/></svg>
+        				</div>
+        				<p>Не имеет аналогов в нашем городе</p>
+        			</div>
+        			<div class="s_why__blocks_item">
+        				<div class="s_why__blocks_circle">
+        					<svg xmlns="http://www.w3.org/2000/svg" width="45" height="56"><path d="M44.1 37.2C44.6 37.2 45 37.6 45 38.1L45 44.4C45 46.9 43 48.9 40.5 48.9L24.5 48.9 24.5 55.1C24.5 55.4 24.4 55.7 24.1 55.9 24 56 23.8 56 23.6 56 23.5 56 23.4 56 23.2 55.9L18.9 53.7 14.5 55.9C14.2 56 13.9 56 13.6 55.9 13.4 55.7 13.2 55.4 13.2 55.1L13.2 48.9 4.5 48.9C2 48.9 0 46.9 0 44.4L0 4.4C0 1.9 2 0 4.5 0L40.5 0C43 0 45 2 45 4.4L45 10.7C45 11.2 44.6 11.6 44.1 11.6L37.9 11.6 37.9 37.2 44.1 37.2ZM37.9 44.4C37.9 45.9 39.1 47.1 40.5 47.1 42 47.1 43.2 45.8 43.2 44.4L43.2 39 37.9 39 37.9 44.4ZM15 53.7L18.5 51.9C18.7 51.8 19 51.8 19.3 51.9L22.7 53.7 22.7 43.1C21.6 43.8 20.3 44.1 18.9 44.1 17.5 44.1 16.2 43.8 15 43.1L15 53.7ZM14.7 40.7C15.9 41.7 17.4 42.3 18.9 42.3 20.4 42.3 21.8 41.8 22.9 40.9 23 40.8 23.1 40.7 23.2 40.6 24.5 39.4 25.2 37.8 25.2 36.1 25.2 32.6 22.4 29.8 18.9 29.8 15.5 29.8 12.7 32.6 12.7 36.1 12.7 37.8 13.4 39.5 14.7 40.7ZM37 1.8L4.5 1.8C3 1.8 1.8 2.9 1.8 4.4L1.8 44.4C1.8 45.9 3 47.1 4.5 47.1L13.2 47.1 13.2 41.7C11.7 40.2 10.9 38.2 10.9 36.1 10.9 31.6 14.5 28 18.9 28 23.3 28 26.9 31.6 26.9 36.1 26.9 38.2 26.1 40.3 24.5 41.8L24.5 47.1 37 47.1C36.4 46.3 36.1 45.4 36.1 44.4L36.1 4.5C36.1 3.5 36.4 2.5 37 1.8ZM43.2 9.8L43.2 4.4C43.2 3 42 1.8 40.5 1.8 39.1 1.8 37.9 3 37.9 4.5L37.9 9.8 43.2 9.8ZM30.8 19.9L7 19.9C6.5 19.9 6.1 19.5 6.1 19 6.1 18.5 6.5 18.1 7 18.1L30.8 18.1C31.3 18.1 31.7 18.5 31.7 19 31.7 19.5 31.3 19.9 30.8 19.9ZM30.8 16.3L27.3 16.3C26.8 16.3 26.4 15.9 26.4 15.4 26.4 15 26.8 14.6 27.3 14.6L30.8 14.6C31.3 14.6 31.7 15 31.7 15.4 31.7 15.9 31.3 16.3 30.8 16.3ZM27.8 11.4C27.4 11.7 26.8 11.6 26.5 11.2L24.5 8.6 22.4 11.2C22.2 11.5 22 11.6 21.7 11.6 21.4 11.6 21.2 11.5 21 11.2L18.9 8.6 16.8 11.2C16.7 11.5 16.4 11.6 16.1 11.6 15.9 11.6 15.6 11.5 15.4 11.2L13.4 8.6 11.3 11.2C11.1 11.5 10.8 11.6 10.6 11.6 10.4 11.6 10.2 11.5 10 11.4 9.6 11.1 9.6 10.5 9.9 10.1L12.7 6.6C12.8 6.3 13.1 6.2 13.4 6.2 13.6 6.2 13.9 6.4 14.1 6.6L16.1 9.2 18.2 6.6C18.4 6.3 18.6 6.2 18.9 6.2 19.2 6.2 19.4 6.3 19.6 6.6L21.7 9.2 23.8 6.6C23.9 6.3 24.2 6.2 24.5 6.2 24.7 6.2 25 6.3 25.2 6.6L27.9 10.1C28.3 10.5 28.2 11.1 27.8 11.4ZM24.6 15.4C24.6 15.9 24.2 16.3 23.7 16.3L7 16.3C6.5 16.3 6.1 15.9 6.1 15.4 6.1 15 6.5 14.6 7 14.6L23.7 14.6C24.2 14.6 24.6 15 24.6 15.4ZM10.6 21.7L27.3 21.7C27.8 21.7 28.2 22.1 28.2 22.6 28.2 23.1 27.8 23.5 27.3 23.5L10.6 23.5C10.1 23.5 9.7 23.1 9.7 22.6 9.7 22.1 10.1 21.7 10.6 21.7ZM18.9 31.6C21.4 31.6 23.4 33.6 23.4 36.1 23.4 38.5 21.4 40.5 18.9 40.5 16.4 40.5 14.4 38.5 14.4 36.1 14.4 33.6 16.4 31.6 18.9 31.6ZM18.9 38.7C20.4 38.7 21.6 37.5 21.6 36.1 21.6 34.6 20.4 33.4 18.9 33.4 17.4 33.4 16.2 34.6 16.2 36.1 16.2 37.5 17.4 38.7 18.9 38.7Z" fill="rgb(255, 255, 255)"/></svg>
+        				</div>
+        				<p>Преподаватели сертифицированы компанией “1С”</p>
+        			</div>
+        			<div class="s_why__blocks_item">
+        				<div class="s_why__blocks_circle">
+        					<svg xmlns="http://www.w3.org/2000/svg" width="52" height="52"><path d="M44.4 44.4C39.5 49.3 32.9 52 26 52 19.1 52 12.5 49.3 7.6 44.4 2.7 39.5 0 32.9 0 26 0 19.1 2.7 12.5 7.6 7.6 12.5 2.7 19.1 0 26 0 32.9 0 39.5 2.7 44.4 7.6 49.3 12.5 52 19.1 52 26 52 32.9 49.3 39.5 44.4 44.4ZM26 1.7C12.6 1.7 1.7 12.6 1.7 26 1.7 39.4 12.6 50.3 26 50.3 39.4 50.3 50.3 39.4 50.3 26 50.3 12.6 39.4 1.7 26 1.7ZM7.5 26.8C7 26.8 6.6 26.5 6.6 26 6.6 25.5 7 25.2 7.5 25.2L10.8 25.2C11.2 25.2 11.6 25.5 11.6 26 11.6 26.5 11.2 26.8 10.8 26.8L7.5 26.8ZM26.8 41.2L26.8 44.5C26.8 45 26.5 45.4 26 45.4 25.5 45.4 25.2 45 25.2 44.5L25.2 41.2C25.2 40.8 25.5 40.4 26 40.4 26.5 40.4 26.8 40.8 26.8 41.2ZM25.2 10.8L25.2 7.5C25.2 7 25.5 6.6 26 6.6 26.5 6.6 26.8 7 26.8 7.5L26.8 10.8C26.8 11.2 26.5 11.6 26 11.6 25.5 11.6 25.2 11.2 25.2 10.8ZM28.9 21.9C28.6 22.2 28.1 22.2 27.8 21.9 27.4 21.6 27.4 21 27.8 20.7L36.2 12.3C36.3 12.2 36.5 12.1 36.8 12.1 37 12.1 37.2 12.2 37.3 12.3L39.7 14.7C40 15 40 15.5 39.7 15.8L29 26.5C28.7 28 27.5 29 26 29 25.5 29 25 28.9 24.5 28.7L15.8 37.3C15.7 37.5 15.5 37.6 15.2 37.6 15 37.6 14.8 37.5 14.7 37.3 14.3 37 14.3 36.5 14.7 36.2L23.3 27.5C23.2 27.2 23.1 26.9 23 26.5L15.8 19.3C15.5 19 15.5 18.5 15.8 18.2L18.2 15.8C18.5 15.5 19 15.5 19.4 15.8L26.5 23C27.4 23.2 28.2 23.7 28.7 24.5L37.9 15.2 36.8 14.1 28.9 21.9ZM18.8 17.6L17.6 18.8 23.3 24.5C23.6 24 24 23.6 24.5 23.3L18.8 17.6ZM26 24.6C25.2 24.6 24.6 25.2 24.6 26 24.6 26.4 24.8 26.7 25 27 25.3 27.2 25.6 27.4 26 27.4 26.8 27.4 27.4 26.8 27.4 26 27.4 25.2 26.8 24.6 26 24.6ZM40.4 26C40.4 25.5 40.8 25.2 41.2 25.2L44.5 25.2C45 25.2 45.4 25.5 45.4 26 45.4 26.5 45 26.8 44.5 26.8L41.2 26.8C40.8 26.8 40.4 26.5 40.4 26ZM43.2 40.8C42.9 41.1 42.4 41.2 42 40.9 41.7 40.6 41.6 40 41.9 39.7 45.2 35.9 47 31 47 26 47 14.4 37.6 5 26 5 14.4 5 5 14.4 5 26 5 37.6 14.4 47 26 47 31 47 35.9 45.2 39.7 41.9 40 41.6 40.6 41.7 40.9 42 41.2 42.4 41.1 42.9 40.8 43.2 36.7 46.7 31.4 48.7 26 48.7 13.5 48.7 3.3 38.5 3.3 26 3.3 13.5 13.5 3.3 26 3.3 38.5 3.3 48.7 13.5 48.7 26 48.7 31.4 46.7 36.7 43.2 40.8Z" fill="rgb(255, 255, 255)"/></svg>
+        				</div>
+        				<p>Ваш ребенок научится проводить время с пользой</p>
+        			</div>
+        			<div class="s_why__blocks_item">
+        				<div class="s_why__blocks_circle">
+        					<svg xmlns="http://www.w3.org/2000/svg" width="41" height="52"><path d="M40.2 2.8L38.8 2.8 38.8 17.1 40 20C40.2 20.5 40 20.9 39.5 21.1 39.4 21.2 39.3 21.2 39.2 21.2 38.9 21.2 38.6 21 38.5 20.7L38 19.5 37.4 20.7C37.3 21.1 36.8 21.3 36.4 21.1 35.9 20.9 35.7 20.5 35.9 20L37.1 17.1 37.1 2.8 12.1 2.8 12.1 12.7C13.1 12.3 14.1 12.1 15.2 12.1 17.1 12.1 19 12.7 20.5 13.8 22 12.7 23.9 12.1 25.8 12.1 26.9 12.1 27.9 12.3 28.9 12.7L28.9 5.3C28.9 4.8 29.3 4.4 29.8 4.4 30.2 4.4 30.6 4.8 30.6 5.3L30.6 13.9C31 15 31.2 16.1 31.2 17.3 31.2 23.2 26.4 27.9 20.5 27.9 14.6 27.9 9.8 23.2 9.8 17.3 9.8 16.1 10 15 10.4 13.9L10.4 2.8 0.8 2.8C0.4 2.8 0 2.4 0 1.9 0 1.5 0.4 1.1 0.8 1.1L37.1 1.1 37.1 0.8C37.1 0.4 37.5 0 38 0 38.4 0 38.8 0.4 38.8 0.8L38.8 1.1 40.2 1.1C40.6 1.1 41 1.5 41 1.9 41 2.4 40.6 2.8 40.2 2.8ZM11.5 17.3C11.5 22.2 15.5 26.3 20.5 26.3 25.5 26.3 29.5 22.2 29.5 17.3 29.5 16.4 29.4 15.5 29.1 14.6 28.1 14.1 26.9 13.8 25.8 13.8 24 13.8 22.4 14.4 21 15.5 20.9 15.6 20.7 15.7 20.5 15.7 20.3 15.7 20.1 15.6 20 15.5 18.6 14.4 17 13.8 15.2 13.8 14.1 13.8 12.9 14.1 11.9 14.6 11.6 15.5 11.5 16.4 11.5 17.3ZM9.7 33.8C9.8 33.7 9.8 33.7 9.9 33.7 13 31.8 16.6 30.7 20.5 30.7 24.4 30.7 28 31.8 31.1 33.7 31.2 33.7 31.2 33.7 31.3 33.8 37.1 37.4 41 43.8 41 51.2 41 51.6 40.6 52 40.2 52L9.7 52C9.2 52 8.9 51.6 8.9 51.2 8.9 50.7 9.2 50.3 9.7 50.3L39.3 50.3C39 44.1 35.8 38.7 30.9 35.5L21.1 45.3C21.1 45.3 21.1 45.3 21.1 45.3 21.1 45.3 21 45.3 21 45.3 21 45.3 21 45.3 21 45.3 21 45.3 21 45.3 21 45.4 21 45.4 21 45.4 20.9 45.4 20.9 45.4 20.9 45.4 20.9 45.4 20.9 45.4 20.9 45.4 20.9 45.4 20.9 45.4 20.8 45.4 20.8 45.4 20.8 45.4 20.8 45.4 20.8 45.4 20.8 45.4 20.8 45.5 20.7 45.5 20.7 45.5 20.7 45.5 20.7 45.5 20.7 45.5 20.7 45.5 20.7 45.5 20.7 45.5 20.7 45.5 20.6 45.5 20.6 45.5 20.6 45.5 20.6 45.5 20.6 45.5 20.5 45.5 20.5 45.5 20.5 45.5 20.4 45.5 20.4 45.5 20.4 45.5 20.4 45.5 20.4 45.5 20.4 45.5 20.3 45.5 20.3 45.5 20.3 45.5 20.3 45.5 20.3 45.5 20.3 45.5 20.3 45.5 20.3 45.5 20.2 45.5 20.2 45.4 20.2 45.4 20.2 45.4 20.2 45.4 20.2 45.4 20.2 45.4 20.1 45.4 20.1 45.4 20.1 45.4 20.1 45.4 20.1 45.4 20.1 45.4 20.1 45.4 20.1 45.4 20 45.4 20 45.4 20 45.4 20 45.3 20 45.3 20 45.3 20 45.3 20 45.3 20 45.3 20 45.3 19.9 45.3 19.9 45.3 19.9 45.3 19.9 45.3 19.9 45.3L10.1 35.5C5.2 38.7 2 44.1 1.7 50.3L6.4 50.3C6.8 50.3 7.2 50.7 7.2 51.2 7.2 51.6 6.8 52 6.4 52L0.8 52C0.4 52 0 51.6 0 51.2 0 43.8 3.9 37.4 9.7 33.8ZM19.7 42.7L19.7 38.2C19.7 37.7 20 37.3 20.5 37.3 21 37.3 21.3 37.7 21.3 38.2L21.3 42.7 29.4 34.6C27 33.3 24.2 32.5 21.3 32.4L21.3 34.9C21.3 35.3 21 35.7 20.5 35.7 20 35.7 19.7 35.3 19.7 34.9L19.7 32.4C16.8 32.5 14 33.3 11.6 34.6L19.7 42.7Z" fill="rgb(255, 255, 255)"/></svg>
+        				</div>
+        				<p>Индивидуальный подход к ученикам</p>
+        			</div>
+        			<div class="s_why__blocks_item">
+        				<div class="s_why__blocks_circle">
+        					<svg xmlns="http://www.w3.org/2000/svg" width="52" height="52"><path d="M48.7 15L48.7 0.8C48.7 0.4 48.3 0 47.9 0L41.2 0C40.8 0 40.4 0.4 40.4 0.8 40.4 1.3 40.8 1.7 41.2 1.7L47 1.7 47 14.9 45.4 14.9 45.4 4.1C45.4 3.7 45 3.3 44.5 3.3 44.1 3.3 43.7 3.7 43.7 4.1L43.7 15.8C43.7 16.2 44.1 16.6 44.5 16.6L47.8 16.6C47.8 16.6 47.8 16.6 47.9 16.6 47.9 16.6 47.9 16.6 47.9 16.6 49.2 16.6 50.3 17.7 50.3 19.1L50.3 24.6C50.3 26 49.2 27.1 47.9 27.1L44.5 27.1C44.1 27.1 43.7 27.5 43.7 27.9L43.7 30.4 42 30.4 42 4.1C42 3.7 41.7 3.3 41.2 3.3 40.8 3.3 40.4 3.7 40.4 4.1L40.4 31.3C40.4 31.7 40.8 32.1 41.2 32.1L44.5 32.1C45.9 32.1 47 33.2 47 34.6L47 40.1C47 41.5 45.9 42.6 44.5 42.6 44.5 42.6 41.2 42.6 41.2 42.6 40.8 42.6 40.4 43 40.4 43.4L40.4 47.9C40.4 48.3 40.8 48.7 41.2 48.7 41.7 48.7 42 48.3 42 47.9L42 44.3 43.7 44.3 43.7 47.9C43.7 48.3 44.1 48.7 44.5 48.7 45 48.7 45.4 48.3 45.4 47.9L45.4 44.2C46 44 46.5 43.8 47 43.4L47 50.3 38.7 50.3 38.7 0.8C38.7 0.4 38.4 0 37.9 0L5.3 0C4.8 0 4.4 0.4 4.4 0.8L4.4 3.6 2.5 3.6C1.1 3.6 0 4.7 0 6.1 0 7.5 1.1 8.6 2.5 8.6L4.4 8.6 4.4 16.9 2.5 16.9C1.1 16.9 0 18 0 19.4 0 20.7 1.1 21.9 2.5 21.9L4.4 21.9 4.4 30.1 2.5 30.1C1.1 30.1 0 31.3 0 32.6 0 34 1.1 35.1 2.5 35.1L4.4 35.1 4.4 43.4 2.5 43.4C1.1 43.4 0 44.5 0 45.9 0 47.3 1.1 48.4 2.5 48.4L4.4 48.4 4.4 51.2C4.4 51.6 4.8 52 5.3 52L47.9 52C48.3 52 48.7 51.6 48.7 51.2L48.7 28.7C50.6 28.3 52 26.6 52 24.6L52 19.1C52 17.1 50.6 15.4 48.7 15ZM1.7 6.1C1.7 5.6 2 5.3 2.5 5.3L8 5.3C8.5 5.3 8.9 5.6 8.9 6.1 8.9 6.5 8.5 6.9 8 6.9L2.5 6.9C2 6.9 1.7 6.5 1.7 6.1ZM1.7 19.4C1.7 18.9 2 18.5 2.5 18.5L8 18.5C8.5 18.5 8.9 18.9 8.9 19.4 8.9 19.8 8.5 20.2 8 20.2L2.5 20.2C2 20.2 1.7 19.8 1.7 19.4ZM1.7 32.6C1.7 32.2 2 31.8 2.5 31.8L8 31.8C8.5 31.8 8.9 32.2 8.9 32.6 8.9 33.1 8.5 33.5 8 33.5L2.5 33.5C2 33.5 1.7 33.1 1.7 32.6ZM1.7 45.9C1.7 45.5 2 45.1 2.5 45.1L8 45.1C8.5 45.1 8.9 45.5 8.9 45.9 8.9 46.4 8.5 46.7 8 46.7L2.5 46.7C2 46.7 1.7 46.4 1.7 45.9ZM6.1 48.4L8 48.4C9.4 48.4 10.5 47.3 10.5 45.9 10.5 44.5 9.4 43.4 8 43.4L6.1 43.4 6.1 35.1 8 35.1C9.4 35.1 10.5 34 10.5 32.6 10.5 31.3 9.4 30.1 8 30.1L6.1 30.1 6.1 21.9 8 21.9C9.4 21.9 10.5 20.7 10.5 19.4 10.5 18 9.4 16.9 8 16.9L6.1 16.9 6.1 8.6 8 8.6C9.4 8.6 10.5 7.5 10.5 6.1 10.5 4.7 9.4 3.6 8 3.6L6.1 3.6 6.1 1.7 37.1 1.7 37.1 50.3 6.1 50.3 6.1 48.4ZM45.4 30.5L45.4 28.8 47 28.8 47 31.3C46.5 30.9 46 30.6 45.4 30.5Z" fill="rgb(255, 255, 255)"/></svg>
+        				</div>
+        				<p>Можете узнать оценки прямо на сайте</p>
+        			</div>
+        		</div>
+        	</div>
+        </section>
+        <section class="s_teachers" style="background-image:url('images/bg/4.jpg')">
+        	<div class="container">
+        		<h2 class="h2 h2_blue"><span>Преподаватели</span> школы</h2>
+        		<div class="s_teachers__slider_wrp">
+        			<div class="s_teachers__slider">
+        				<div class="s_teachers__item">
+        					<div class="s_teachers__img"><img src="images/teachers/1.png" alt=""></div>
+        					<div class="s_teachers__txt">
+        						<h3>Иванов Александр</h3>
+								<small>Lego WeDo для детей 6-10 лет</small>
+								<p>Повседневная практика показывает, что консультация с широким активом способствует подготовки и реализации форм развития. Равным образом рамки и место обучения кадров позволяет выполнять важные задания по разработке соответствующий условий активизации.</p>
+       							<hr>
+       							<div class="s_teachers__txt_pager">
+       								<span class="current" style="background-image:url('images/teachers/thumb/1.png')"></span>
+       								<span style="background-image:url('images/teachers/thumb/2.png')"></span>
+       								<span style="background-image:url('images/teachers/thumb/3.png')"></span>
+       								<span style="background-image:url('images/teachers/thumb/4.png')"></span>
+       								<span style="background-image:url('images/teachers/thumb/1.png')"></span>
+       								<span style="background-image:url('images/teachers/thumb/2.png')"></span>
+       								<span style="background-image:url('images/teachers/thumb/3.png')"></span>
+       								<span style="background-image:url('images/teachers/thumb/4.png')"></span>
+       							</div>
+        					</div>
+        				</div>
+        				<div class="s_teachers__item">
+        					<div class="s_teachers__img"><img src="images/teachers/1.png" alt=""></div>
+        					<div class="s_teachers__txt">
+        						<h3>Иванов Александр 2</h3>
+								<small>Lego WeDo для детей 6-10 лет</small>
+								<p>Равным образом рамки и место обучения кадров позволяет выполнять важные задания по разработке соответствующий условий активизации.</p>
+       							<hr>
+       							<div class="s_teachers__txt_pager">
+       								<span class="current" style="background-image:url('images/teachers/thumb/1.png')"></span>
+       								<span style="background-image:url('images/teachers/thumb/2.png')"></span>
+       								<span style="background-image:url('images/teachers/thumb/3.png')"></span>
+       								<span style="background-image:url('images/teachers/thumb/4.png')"></span>
+       								<span style="background-image:url('images/teachers/thumb/1.png')"></span>
+       								<span style="background-image:url('images/teachers/thumb/2.png')"></span>
+       								<span style="background-image:url('images/teachers/thumb/3.png')"></span>
+       								<span style="background-image:url('images/teachers/thumb/4.png')"></span>
+       							</div>
+        					</div>
+        				</div>
+        				<div class="s_teachers__item">
+        					<div class="s_teachers__img"><img src="images/teachers/1.png" alt=""></div>
+        					<div class="s_teachers__txt">
+        						<h3>Неиванов Александр</h3>
+								<small>Lego WeDo для детей 6-10 лет</small>
+								<p>Повседневная практика показывает, что консультация с широким активом способствует подготовки и реализации форм развития. .</p>
+       							<hr>
+       							<div class="s_teachers__txt_pager">
+       								<span class="current" style="background-image:url('images/teachers/thumb/1.png')"></span>
+       								<span style="background-image:url('images/teachers/thumb/2.png')"></span>
+       								<span style="background-image:url('images/teachers/thumb/3.png')"></span>
+       								<span style="background-image:url('images/teachers/thumb/4.png')"></span>
+       								<span style="background-image:url('images/teachers/thumb/1.png')"></span>
+       								<span style="background-image:url('images/teachers/thumb/2.png')"></span>
+       								<span style="background-image:url('images/teachers/thumb/3.png')"></span>
+       								<span style="background-image:url('images/teachers/thumb/4.png')"></span>
+       							</div>
+        					</div>
+        				</div>
+        				<div class="s_teachers__item">
+        					<div class="s_teachers__img"><img src="images/teachers/1.png" alt=""></div>
+        					<div class="s_teachers__txt">
+        						<h3>Иванов Александр</h3>
+								<small>Lego WeDo для детей 6-10 лет</small>
+								<p>Повседневная практика показывает, что консультация с широким активом способствует подготовки и реализации форм развития. Равным образом рамки и место обучения кадров позволяет выполнять важные задания по разработке соответствующий условий активизации.</p>
+       							<hr>
+       							<div class="s_teachers__txt_pager">
+       								<span class="current" style="background-image:url('images/teachers/thumb/1.png')"></span>
+       								<span style="background-image:url('images/teachers/thumb/2.png')"></span>
+       								<span style="background-image:url('images/teachers/thumb/3.png')"></span>
+       								<span style="background-image:url('images/teachers/thumb/4.png')"></span>
+       								<span style="background-image:url('images/teachers/thumb/1.png')"></span>
+       								<span style="background-image:url('images/teachers/thumb/2.png')"></span>
+       								<span style="background-image:url('images/teachers/thumb/3.png')"></span>
+       								<span style="background-image:url('images/teachers/thumb/4.png')"></span>
+       							</div>
+        					</div>
+        				</div>
+        				<div class="s_teachers__item">
+        					<div class="s_teachers__img"><img src="images/teachers/1.png" alt=""></div>
+        					<div class="s_teachers__txt">
+        						<h3>Иванов Александр</h3>
+								<small>Lego WeDo для детей 6-10 лет</small>
+								<p>Повседневная практика показывает, что консультация с широким активом способствует подготовки и реализации форм развития. Равным образом рамки и место обучения кадров позволяет выполнять важные задания по разработке соответствующий условий активизации.</p>
+       							<hr>
+       							<div class="s_teachers__txt_pager">
+       								<span class="current" style="background-image:url('images/teachers/thumb/1.png')"></span>
+       								<span style="background-image:url('images/teachers/thumb/2.png')"></span>
+       								<span style="background-image:url('images/teachers/thumb/3.png')"></span>
+       								<span style="background-image:url('images/teachers/thumb/4.png')"></span>
+       								<span style="background-image:url('images/teachers/thumb/1.png')"></span>
+       								<span style="background-image:url('images/teachers/thumb/2.png')"></span>
+       								<span style="background-image:url('images/teachers/thumb/3.png')"></span>
+       								<span style="background-image:url('images/teachers/thumb/4.png')"></span>
+       							</div>
+        					</div>
+        				</div>
+        				<div class="s_teachers__item">
+        					<div class="s_teachers__img"><img src="images/teachers/1.png" alt=""></div>
+        					<div class="s_teachers__txt">
+        						<h3>Иванов Александр</h3>
+								<small>Lego WeDo для детей 6-10 лет</small>
+								<p>Повседневная практика показывает, что консультация с широким активом способствует подготовки и реализации форм развития. Равным образом рамки и место обучения кадров позволяет выполнять важные задания по разработке соответствующий условий активизации.</p>
+       							<hr>
+       							<div class="s_teachers__txt_pager">
+       								<span class="current" style="background-image:url('images/teachers/thumb/1.png')"></span>
+       								<span style="background-image:url('images/teachers/thumb/2.png')"></span>
+       								<span style="background-image:url('images/teachers/thumb/3.png')"></span>
+       								<span style="background-image:url('images/teachers/thumb/4.png')"></span>
+       								<span style="background-image:url('images/teachers/thumb/1.png')"></span>
+       								<span style="background-image:url('images/teachers/thumb/2.png')"></span>
+       								<span style="background-image:url('images/teachers/thumb/3.png')"></span>
+       								<span style="background-image:url('images/teachers/thumb/4.png')"></span>
+       							</div>
+        					</div>
+        				</div>
+        				<div class="s_teachers__item">
+        					<div class="s_teachers__img"><img src="images/teachers/1.png" alt=""></div>
+        					<div class="s_teachers__txt">
+        						<h3>Иванов Александр</h3>
+								<small>Lego WeDo для детей 6-10 лет</small>
+								<p>Повседневная практика показывает, что консультация с широким активом способствует подготовки и реализации форм развития. Равным образом рамки и место обучения кадров позволяет выполнять важные задания по разработке соответствующий условий активизации.</p>
+       							<hr>
+       							<div class="s_teachers__txt_pager">
+       								<span class="current" style="background-image:url('images/teachers/thumb/1.png')"></span>
+       								<span style="background-image:url('images/teachers/thumb/2.png')"></span>
+       								<span style="background-image:url('images/teachers/thumb/3.png')"></span>
+       								<span style="background-image:url('images/teachers/thumb/4.png')"></span>
+       								<span style="background-image:url('images/teachers/thumb/1.png')"></span>
+       								<span style="background-image:url('images/teachers/thumb/2.png')"></span>
+       								<span style="background-image:url('images/teachers/thumb/3.png')"></span>
+       								<span style="background-image:url('images/teachers/thumb/4.png')"></span>
+       							</div>
+        					</div>
+        				</div>
+        				<div class="s_teachers__item">
+        					<div class="s_teachers__img"><img src="images/teachers/1.png" alt=""></div>
+        					<div class="s_teachers__txt">
+        						<h3>Иванов Александр</h3>
+								<small>Lego WeDo для детей 6-10 лет</small>
+								<p>Повседневная практика показывает, что консультация с широким активом способствует подготовки и реализации форм развития. Равным образом рамки и место обучения кадров позволяет выполнять важные задания по разработке соответствующий условий активизации.</p>
+       							<hr>
+       							<div class="s_teachers__txt_pager">
+       								<span class="current" style="background-image:url('images/teachers/thumb/1.png')"></span>
+       								<span style="background-image:url('images/teachers/thumb/2.png')"></span>
+       								<span style="background-image:url('images/teachers/thumb/3.png')"></span>
+       								<span style="background-image:url('images/teachers/thumb/4.png')"></span>
+       								<span style="background-image:url('images/teachers/thumb/1.png')"></span>
+       								<span style="background-image:url('images/teachers/thumb/2.png')"></span>
+       								<span style="background-image:url('images/teachers/thumb/3.png')"></span>
+       								<span style="background-image:url('images/teachers/thumb/4.png')"></span>
+       							</div>
+        					</div>
+        				</div>
+        			</div>
+        		</div>
+        	</div>
+        </section>
+        <section class="s_gallery">
+        	<div class="container">
+				<h2 class="h2 h2_blue"><span>Фотографии</span> школы и учеников</h2>
+        		<div class="s_gallery__waterfall">
+        			<a href="http://placehold.it/1969x510" style="background-image:url('http://placehold.it/569x210'); width: 458px; height: 220px;"></a>
+        			<a href="http://placehold.it/1516x769" style="background-image:url('http://placehold.it/350x330'); width: 164px; height: 320px;"></a>
+        			<a href="http://placehold.it/800x625" style="background-image:url('http://placehold.it/650x210'); width: 256px; height: 220px;"></a>
+        			<a href="http://placehold.it/1919x541" style="background-image:url('http://placehold.it/650x394'); width: 450px; height: 294px;"></a>
+        			<a href="http://placehold.it/1887x510" style="background-image:url('http://placehold.it/580x630'); width: 580px; height: 620px;"></a>
+        			<a href="http://placehold.it/1926x571" style="background-image:url('http://placehold.it/300x420'); width: 250px; height: 424px;" class="_video"></a>
+        			<a href="http://placehold.it/2171x510" style="background-image:url('http://placehold.it/650x210'); width: 650px; height: 220px;"></a>
+        			<a href="http://placehold.it/1969x622" style="background-image:url('http://placehold.it/552x291'); width: 552px; height: 291px;"></a>
+        		</div>
+        	</div>
+        </section>
+        <section class="s_reviews" style="background-image:url('images/bg/5.jpg')">
+        	<div class="container">
+        		<h2 class="h2 h2_green"><span>Отзывы</span> о наших курсах</h2>
+        		<div class="s_reviews__body">
+        			<div class="s_reviews__left">
+        				<div class="s_reviews__txt current">
+        					<div class="s_reviews__txt_head">
+        						<div class="s_reviews__txt_img">
+        							<img src="http://placehold.it/162x162" alt="">
+        						</div>
+        						<div class="s_reviews__txt_text">
+        							<h3>Лебедев Сергей Аркадьевич</h3>
+									<small>Директор института компьютерных технологий, кандидат экономических наук, Московский институт экономики, статистики и информатики</small>
+       								<h4>Основы программирования на языке Java для школьников</h4>
+        						</div>
+        					</div>
+        					<div class="s_reviews__txt_body">
+        						<hr>
+								<p>Учебный курс «Основы программирования на языке Java для школьников» очень органично расширяет навыки системного мышления у школьников, способствует процессу профессионального самоопределения в области информационных технологий, развитию творческой интеллектуальной активности</p>
+        					</div>
+        				</div>
+        				<div class="s_reviews__txt">
+        					<div class="s_reviews__txt_head">
+        						<div class="s_reviews__txt_img">
+        							<img src="http://placehold.it/162x162" alt="">
+        						</div>
+        						<div class="s_reviews__txt_text">
+        							<h3>Лебедев Сергей Аркадьевич 2</h3>
+									<small>Директор института компьютерных технологий, кандидат экономических наук, Московский институт экономики, статистики и информатики</small>
+       								<h4>Основы программирования на языке Java для школьников</h4>
+        						</div>
+        					</div>
+        					<div class="s_reviews__txt_body">
+        						<hr>
+								<p>Учебный курс «Основы программирования на языке Java для школьников» очень органично расширяет навыки системного мышления у школьников, способствует</p>
+        					</div>
+        				</div>
+        				<div class="s_reviews__txt">
+        					<div class="s_reviews__txt_head">
+        						<div class="s_reviews__txt_img">
+        							<img src="http://placehold.it/162x162" alt="">
+        						</div>
+        						<div class="s_reviews__txt_text">
+        							<h3>Нелебедев Сергей Аркадьевич</h3>
+									<small>Директор института компьютерных технологий, кандидат экономических наук, Московский институт экономики, статистики и информатики</small>
+       								<h4>Основы программирования на языке Java для школьников</h4>
+        						</div>
+        					</div>
+        					<div class="s_reviews__txt_body">
+        						<hr>
+								<p>Учебный курс «Основы программирования на языке Java для школьников» очень органично расширяет навыки системного мышления у школьников, способствует процессу профессионального самоопределения в области информационных технологий, развитию творческой интеллектуальной активности</p>
+        					</div>
+        				</div>
+        				<div class="s_reviews__txt">
+        					<div class="s_reviews__txt_head">
+        						<div class="s_reviews__txt_img">
+        							<img src="http://placehold.it/162x162" alt="">
+        						</div>
+        						<div class="s_reviews__txt_text">
+        							<h3>Лебедев Сергей Аркадьевич</h3>
+									<small>Директор института компьютерных технологий, кандидат экономических наук, Московский институт экономики, статистики и информатики</small>
+       								<h4>Основы программирования на языке Java для школьников</h4>
+        						</div>
+        					</div>
+        					<div class="s_reviews__txt_body">
+        						<hr>
+								<p>Учебный курс «Основы программирования на языке Java для школьников» очень органично расширяет навыки системного мышления у школьников, способствует процессу профессионального самоопределения в области информационных технологий, развитию творческой интеллектуальной активности</p>
+        					</div>
+        				</div>
+        				<div class="s_reviews__txt">
+        					<div class="s_reviews__txt_head">
+        						<div class="s_reviews__txt_img">
+        							<img src="http://placehold.it/162x162" alt="">
+        						</div>
+        						<div class="s_reviews__txt_text">
+        							<h3>Лебедев Сергей Аркадьевич</h3>
+									<small>Директор института компьютерных технологий, кандидат экономических наук, Московский институт экономики, статистики и информатики</small>
+       								<h4>Основы программирования на языке Java для школьников</h4>
+        						</div>
+        					</div>
+        					<div class="s_reviews__txt_body">
+        						<hr>
+								<p>Учебный курс «Основы программирования на языке Java для школьников» очень органично расширяет навыки системного мышления у школьников, способствует процессу профессионального самоопределения в области информационных технологий, развитию творческой интеллектуальной активности</p>
+        					</div>
+        				</div>
+        				<div class="s_reviews__txt">
+        					<div class="s_reviews__txt_head">
+        						<div class="s_reviews__txt_img">
+        							<img src="http://placehold.it/162x162" alt="">
+        						</div>
+        						<div class="s_reviews__txt_text">
+        							<h3>Лебедев Сергей Аркадьевич</h3>
+									<small>Директор института компьютерных технологий, кандидат экономических наук, Московский институт экономики, статистики и информатики</small>
+       								<h4>Основы программирования на языке Java для школьников</h4>
+        						</div>
+        					</div>
+        					<div class="s_reviews__txt_body">
+        						<hr>
+								<p>Учебный курс «Основы программирования на языке Java для школьников» очень органично расширяет навыки системного мышления у школьников, способствует процессу профессионального самоопределения в области информационных технологий, развитию творческой интеллектуальной активности</p>
+        					</div>
+        				</div>
+        				<div class="s_reviews__txt">
+        					<div class="s_reviews__txt_head">
+        						<div class="s_reviews__txt_img">
+        							<img src="http://placehold.it/162x162" alt="">
+        						</div>
+        						<div class="s_reviews__txt_text">
+        							<h3>Лебедев Сергей Аркадьевич</h3>
+									<small>Директор института компьютерных технологий, кандидат экономических наук, Московский институт экономики, статистики и информатики</small>
+       								<h4>Основы программирования на языке Java для школьников</h4>
+        						</div>
+        					</div>
+        					<div class="s_reviews__txt_body">
+        						<hr>
+								<p>Учебный курс «Основы программирования на языке Java для школьников» очень органично расширяет навыки системного мышления у школьников, способствует процессу профессионального самоопределения в области информационных технологий, развитию творческой интеллектуальной активности</p>
+        					</div>
+        				</div>
+        				<div class="s_reviews__txt">
+        					<div class="s_reviews__txt_head">
+        						<div class="s_reviews__txt_img">
+        							<img src="http://placehold.it/162x162" alt="">
+        						</div>
+        						<div class="s_reviews__txt_text">
+        							<h3>Лебедев Сергей Аркадьевич</h3>
+									<small>Директор института компьютерных технологий, кандидат экономических наук, Московский институт экономики, статистики и информатики</small>
+       								<h4>Основы программирования на языке Java для школьников</h4>
+        						</div>
+        					</div>
+        					<div class="s_reviews__txt_body">
+        						<hr>
+								<p>Учебный курс «Основы программирования на языке Java для школьников» очень органично расширяет навыки системного мышления у школьников, способствует процессу профессионального самоопределения в области информационных технологий, развитию творческой интеллектуальной активности</p>
+        					</div>
+        				</div>
+        			</div>
+        			<div class="s_reviews__right">
+						<span class="current" style="background-image:url('images/teachers/thumb/1.png')"></span>
+						<span style="background-image:url('images/teachers/thumb/2.png')"></span>
+						<span style="background-image:url('images/teachers/thumb/3.png')"></span>
+						<span style="background-image:url('images/teachers/thumb/4.png')"></span>
+						<span style="background-image:url('images/teachers/thumb/4.png')"></span>
+						<span style="background-image:url('images/teachers/thumb/1.png')"></span>
+						<span style="background-image:url('images/teachers/thumb/2.png')"></span>
+						<span style="background-image:url('images/teachers/thumb/2.png')"></span>
+						<span style="background-image:url('images/teachers/thumb/2.png')"></span>
+						<span style="background-image:url('images/teachers/thumb/3.png')"></span>
+						<span style="background-image:url('images/teachers/thumb/4.png')"></span>
+        			</div>
+        		</div>
+        	</div>
+        </section>
+        <section class="s_blocks">
+        	<div class="container">
+        		<div class="s_blocks__body">
+        			<div class="s_blocks__item">
+        				<svg xmlns="http://www.w3.org/2000/svg" width="165" height="165"><path d="M82.5 5C125.3 5 160 39.7 160 82.5 160 125.3 125.3 160 82.5 160 39.7 160 5 125.3 5 82.5 5 39.7 39.7 5 82.5 5Z" style="fill:none;stroke-width:2px;stroke:rgb(124, 179, 66)"/><path d="M114.9 110L51.1 110C50.5 110 50 109.5 50 108.9L50 57.1C50 56.5 50.5 56 51.1 56L114.9 56C115.5 56 116 56.5 116 57.1L116 108.9C116 109.5 115.5 110 114.9 110ZM113.9 58.2L52.1 58.2 52.1 107.8 113.9 107.8 113.9 58.2ZM99.3 92.1C99.9 92.1 100.4 92.5 100.4 93.1 100.4 93.7 99.9 94.2 99.3 94.2L91.5 94.2C90.9 94.2 90.5 93.7 90.5 93.1 90.5 92.5 90.9 92.1 91.5 92.1L99.3 92.1ZM88.3 93.1C88.3 96.1 85.9 98.5 83 98.5 80.1 98.5 77.7 96.1 77.7 93.1 77.7 90.2 80.1 87.7 83 87.7 85.9 87.7 88.3 90.2 88.3 93.1ZM79.8 93.1C79.8 94.9 81.2 96.4 83 96.4 84.8 96.4 86.2 94.9 86.2 93.1 86.2 91.3 84.8 89.9 83 89.9 81.2 89.9 79.8 91.3 79.8 93.1ZM66.7 92.1L74.5 92.1C75.1 92.1 75.5 92.5 75.5 93.1 75.5 93.7 75.1 94.2 74.5 94.2L66.7 94.2C66.1 94.2 65.6 93.7 65.6 93.1 65.6 92.5 66.1 92.1 66.7 92.1ZM66.7 82L99.3 82C99.9 82 100.4 82.5 100.4 83.1 100.4 83.7 99.9 84.2 99.3 84.2L66.7 84.2C66.1 84.2 65.6 83.7 65.6 83.1 65.6 82.5 66.1 82 66.7 82ZM92.1 73.7L89.6 70.5 87.2 73.7C87 73.9 86.6 74.1 86.3 74.1 86 74.1 85.7 73.9 85.5 73.7L83 70.5 80.5 73.7C80.3 73.9 80 74.1 79.7 74.1 79.4 74.1 79.1 73.9 78.8 73.7L76.4 70.5 73.9 73.7C73.7 74 73.4 74.1 73.1 74.1 72.8 74.1 72.6 74 72.4 73.9 71.9 73.5 71.9 72.8 72.2 72.4L75.5 68.1C75.7 67.8 76 67.6 76.4 67.6 76.7 67.6 77 67.8 77.2 68.1L79.7 71.3 82.2 68.1C82.4 67.8 82.7 67.6 83 67.6 83.3 67.6 83.6 67.8 83.8 68.1L86.3 71.3 88.8 68.1C89 67.8 89.3 67.6 89.6 67.6 90 67.6 90.3 67.8 90.5 68.1L93.8 72.4C94.1 72.8 94.1 73.5 93.6 73.9 93.1 74.2 92.5 74.2 92.1 73.7ZM104.7 78.8C104.7 79.4 104.2 79.8 103.6 79.8L62.4 79.8C61.8 79.8 61.3 79.4 61.3 78.8 61.3 78.2 61.8 77.7 62.4 77.7L103.6 77.7C104.2 77.7 104.7 78.2 104.7 78.8ZM55.3 65.7C57.7 65.7 59.5 63.7 59.5 61.4 59.5 60.8 60 60.3 60.6 60.3L95.1 60.3C95.7 60.3 96.1 60.8 96.1 61.4 96.1 62 95.7 62.5 95.1 62.5L61.6 62.5C61.1 65.1 59 67.3 56.4 67.7L56.4 98.3C59 98.7 61.1 100.9 61.6 103.5L104.4 103.5C104.9 100.9 107 98.7 109.6 98.3L109.6 67.7C107 67.3 104.9 65.1 104.4 62.5L99.3 62.5C98.7 62.5 98.3 62 98.3 61.4 98.3 60.8 98.7 60.3 99.3 60.3L105.4 60.3C106 60.3 106.5 60.8 106.5 61.4 106.5 63.7 108.4 65.7 110.7 65.7 111.3 65.7 111.7 66.1 111.7 66.7L111.7 99.3C111.7 99.9 111.3 100.3 110.7 100.3 108.4 100.3 106.5 102.3 106.5 104.6 106.5 105.2 106 105.7 105.4 105.7L60.6 105.7C60 105.7 59.5 105.2 59.5 104.6 59.5 102.3 57.7 100.3 55.3 100.3 54.7 100.3 54.3 99.9 54.3 99.3L54.3 66.7C54.3 66.1 54.7 65.7 55.3 65.7Z" fill="rgb(124, 179, 66)"/></svg>
+        								<h4>Диплом по окончании</h4>
+        								<p>Мы предоставляем свидетельство об окончании выбранного вами курса</p>
+        			</div>
+        			<div class="s_blocks__item">
+        				<svg xmlns="http://www.w3.org/2000/svg" width="165" height="165"><path d="M82.5 5C125.3 5 160 39.7 160 82.5 160 125.3 125.3 160 82.5 160 39.7 160 5 125.3 5 82.5 5 39.7 39.7 5 82.5 5Z" style="fill:none;stroke-width:2px;stroke:rgb(124, 179, 66)"/><path d="M100.8 86.5C101.3 86.3 101.9 86.6 102.2 87.1L110.9 107.9C111.1 108.2 111 108.7 110.7 108.9 110.5 109.2 110 109.4 109.6 109.3L101.1 106.8 96.8 114.5C96.6 114.8 96.3 115 95.9 115 95.9 115 95.9 115 95.9 115 95.4 115 95.1 114.7 94.9 114.4L85.4 91.7C84.8 91.8 84.1 91.8 83.5 91.8 77.4 91.8 71.8 89.2 67.9 85.2L58.9 106.7 66.1 104.6C66.6 104.5 67.1 104.7 67.3 105.1L71 111.6 78.3 94.2C78.5 93.6 79.1 93.4 79.7 93.6 80.2 93.8 80.5 94.4 80.3 94.9L72.1 114.4C71.9 114.7 71.6 115 71.1 115 71.1 115 71.1 115 71.1 115 70.7 115 70.4 114.8 70.2 114.5L65.9 106.8 57.4 109.3C57 109.4 56.5 109.2 56.3 108.9 56 108.7 55.9 108.2 56.1 107.9L66.4 83.4C63.8 79.9 62.2 75.6 62.2 70.9 62.2 59.4 71.8 50 83.5 50 95.2 50 104.8 59.4 104.8 70.9 104.8 81.1 97.4 89.6 87.5 91.4L96 111.6 99.7 105.1C99.9 104.7 100.4 104.5 100.9 104.6L108.1 106.7 100.2 87.9C100 87.4 100.2 86.7 100.8 86.5ZM102.7 70.9C102.7 60.5 94.1 52.1 83.5 52.1 72.9 52.1 64.3 60.5 64.3 70.9 64.3 81.3 72.9 89.7 83.5 89.7 94.1 89.7 102.7 81.3 102.7 70.9ZM71.3 67C71.4 66.6 71.7 66.4 72.1 66.3L79.2 65.1 82.6 58.9C82.7 58.5 83.1 58.3 83.5 58.3 83.9 58.3 84.3 58.5 84.4 58.9L87.8 65.1 94.9 66.3C95.3 66.4 95.6 66.6 95.7 67 95.8 67.4 95.7 67.8 95.5 68.1L90.4 73.1 91.5 80.1C91.5 80.5 91.4 80.9 91 81.1 90.9 81.2 90.6 81.3 90.4 81.3 90.3 81.3 90.1 81.3 90 81.2L83.5 78 77 81.2C76.7 81.4 76.3 81.3 76 81.1 75.6 80.9 75.5 80.5 75.5 80.1L76.6 73.1 71.5 68.1C71.3 67.8 71.2 67.4 71.3 67ZM78.5 72C78.7 72.2 78.8 72.6 78.8 72.9L77.9 78.4 83 75.9C83.2 75.9 83.3 75.8 83.5 75.8 83.7 75.8 83.8 75.9 84 75.9L89.1 78.4 88.2 72.9C88.2 72.6 88.3 72.2 88.5 72L92.5 68 86.9 67.1C86.6 67 86.3 66.8 86.1 66.5L83.5 61.6 80.9 66.5C80.7 66.8 80.4 67 80.1 67.1L74.5 68 78.5 72ZM66.4 70.9C66.4 61.7 74.1 54.1 83.5 54.1 92 54.1 99.3 60.4 100.4 68.7 100.5 69.3 100.1 69.8 99.5 69.9 98.9 69.9 98.4 69.5 98.3 69 97.3 61.7 91 56.2 83.5 56.2 75.3 56.2 68.5 62.8 68.5 70.9 68.5 79 75.3 85.6 83.5 85.6 91 85.6 97.3 80.1 98.3 72.8 98.4 72.3 98.9 71.9 99.5 71.9 100.1 72 100.5 72.5 100.4 73.1 99.3 81.4 92 87.6 83.5 87.6 74.1 87.6 66.4 80.1 66.4 70.9Z" fill="rgb(124, 179, 66)"/></svg>
+        								<h4>Высокое качество обучения</h4>
+        								<p>Мы единственная школа в городе Клин которая иммет сертификат фирмы “1С” и занимается разработкой ПО</p>
+        			</div>
+        			<div class="s_blocks__item">
+        				<svg xmlns="http://www.w3.org/2000/svg" width="165" height="165"><path d="M82.5 5C125.3 5 160 39.7 160 82.5 160 125.3 125.3 160 82.5 160 39.7 160 5 125.3 5 82.5 5 39.7 39.7 5 82.5 5Z" style="fill:none;stroke-width:2px;stroke:rgb(124, 179, 66)"/><path d="M111.6 101.7L77.6 101.7 77.6 109.8 88.4 109.8 88.4 104.9C88.4 104.3 88.9 103.8 89.5 103.8 90.1 103.8 90.6 104.3 90.6 104.9L90.6 109.8 95.3 109.8C95.9 109.8 96.4 110.3 96.4 110.9 96.4 111.5 95.9 112 95.3 112L70.7 112C70.1 112 69.6 111.5 69.6 110.9 69.6 110.3 70.1 109.8 70.7 109.8L75.4 109.8 75.4 101.7 54.4 101.7C51.4 101.7 49 99.2 49 96.3L49 58.4C49 57.8 49.5 57.3 50.1 57.3L53.3 57.3 53.3 54.1C53.3 53.5 53.7 53 54.3 53L78.8 53C80.4 53 81.9 53.6 83 54.6 84.1 53.6 85.6 53 87.2 53L111.7 53C112.3 53 112.7 53.5 112.7 54.1L112.7 57.3 115.9 57.3C116.5 57.3 117 57.8 117 58.4L117 96.3C117 99.2 114.6 101.7 111.6 101.7ZM53.3 59.5L51.2 59.5 51.2 90.1 53.3 90.1 53.3 59.5ZM110.6 55.2L87.2 55.2C85.9 55.2 84.6 55.8 83.9 56.9 83.7 57.2 83.4 57.4 83 57.4 82.6 57.4 82.3 57.2 82.1 56.9 81.4 55.8 80.1 55.2 78.8 55.2L55.4 55.2 55.4 90.1 110.6 90.1 110.6 55.2ZM114.8 59.5L112.7 59.5 112.7 90.1 114.8 90.1 114.8 59.5ZM114.8 92.3L51.2 92.3 51.2 96.3C51.2 98 52.6 99.5 54.4 99.5L111.6 99.5C113.4 99.5 114.8 98 114.8 96.3L114.8 92.3ZM60.2 58.8L76.9 58.8C77.5 58.8 78 59.2 78 59.8 78 60.4 77.5 60.9 76.9 60.9L60.2 60.9C59.6 60.9 59.2 60.4 59.2 59.8 59.2 59.2 59.6 58.8 60.2 58.8ZM60.2 63.9L76.9 63.9C77.5 63.9 78 64.4 78 65 78 65.6 77.5 66 76.9 66L60.2 66C59.6 66 59.2 65.6 59.2 65 59.2 64.4 59.6 63.9 60.2 63.9ZM60.2 69L68.6 69C69.2 69 69.7 69.5 69.7 70.1 69.7 70.7 69.2 71.2 68.6 71.2L60.2 71.2C59.6 71.2 59.2 70.7 59.2 70.1 59.2 69.5 59.6 69 60.2 69ZM60.2 74.1L76.9 74.1C77.5 74.1 78 74.6 78 75.2 78 75.8 77.5 76.3 76.9 76.3L60.2 76.3C59.6 76.3 59.2 75.8 59.2 75.2 59.2 74.6 59.6 74.1 60.2 74.1ZM60.2 79.2L76.9 79.2C77.5 79.2 78 79.7 78 80.3 78 80.9 77.5 81.4 76.9 81.4L60.2 81.4C59.6 81.4 59.2 80.9 59.2 80.3 59.2 79.7 59.6 79.2 60.2 79.2ZM60.2 84.4L68.6 84.4C69.2 84.4 69.7 84.9 69.7 85.5 69.7 86 69.2 86.5 68.6 86.5L60.2 86.5C59.6 86.5 59.2 86 59.2 85.5 59.2 84.9 59.6 84.4 60.2 84.4ZM83 59.5C83.6 59.5 84.1 60 84.1 60.6L84.1 86.9C84.1 87.5 83.6 88 83 88 82.4 88 81.9 87.5 81.9 86.9L81.9 60.6C81.9 60 82.4 59.5 83 59.5ZM89.1 58.8L105.8 58.8C106.4 58.8 106.8 59.2 106.8 59.8 106.8 60.4 106.4 60.9 105.8 60.9L89.1 60.9C88.5 60.9 88 60.4 88 59.8 88 59.2 88.5 58.8 89.1 58.8ZM89.1 63.9L105.8 63.9C106.4 63.9 106.8 64.4 106.8 65 106.8 65.6 106.4 66 105.8 66L89.1 66C88.5 66 88 65.6 88 65 88 64.4 88.5 63.9 89.1 63.9ZM89.1 69L97.4 69C98 69 98.5 69.5 98.5 70.1 98.5 70.7 98 71.2 97.4 71.2L89.1 71.2C88.5 71.2 88 70.7 88 70.1 88 69.5 88.5 69 89.1 69ZM89.1 74.1L105.8 74.1C106.4 74.1 106.8 74.6 106.8 75.2 106.8 75.8 106.4 76.3 105.8 76.3L89.1 76.3C88.5 76.3 88 75.8 88 75.2 88 74.6 88.5 74.1 89.1 74.1ZM89.1 79.2L105.8 79.2C106.4 79.2 106.8 79.7 106.8 80.3 106.8 80.9 106.4 81.4 105.8 81.4L89.1 81.4C88.5 81.4 88 80.9 88 80.3 88 79.7 88.5 79.2 89.1 79.2ZM89.1 84.4L97.4 84.4C98 84.4 98.5 84.9 98.5 85.5 98.5 86 98 86.5 97.4 86.5L89.1 86.5C88.5 86.5 88 86 88 85.5 88 84.9 88.5 84.4 89.1 84.4Z" fill="rgb(124, 179, 66)"/></svg>
+        								<h4>Насыщенная программа</h4>
+        								<p>Занятие длится 1.5 часа и предполагает активное вовлечение ребенка в основы программирования и конструирования</p>
+        			</div>
+        			<div class="s_blocks__item">
+        				<svg xmlns="http://www.w3.org/2000/svg" width="165" height="165"><path d="M82.5 5C125.3 5 160 39.7 160 82.5 160 125.3 125.3 160 82.5 160 39.7 160 5 125.3 5 82.5 5 39.7 39.7 5 82.5 5Z" style="fill:none;stroke-width:2px;stroke:rgb(124, 179, 66)"/><path d="M62 103.1C61.9 103.1 61.9 103.1 61.8 103.1 61.3 103.1 60.8 102.6 60.7 102.1 60.7 101.8 60.7 101.6 60.7 101.4 60.7 101.3 60.7 101.1 60.7 101 60.7 100.5 60.8 99.9 60.9 99.4 61.1 98.8 61.7 98.4 62.3 98.6 62.9 98.8 63.3 99.4 63.1 100 63 100.4 63 100.7 63 101.1 63 101.2 63 101.3 63 101.4 63 101.5 63 101.7 63 101.8 63 102.4 62.6 103 62 103.1ZM66.7 96.8C66.6 96.8 66.4 96.8 66.3 96.8 65.9 96.8 65.6 97 65.2 97.1 65.1 97.2 64.9 97.3 64.7 97.3 64.3 97.3 63.9 97.1 63.7 96.7 63.4 96.1 63.6 95.4 64.1 95.1 64.7 94.8 65.4 94.6 66 94.6 66.3 94.5 66.7 94.5 67 94.6 67.7 94.6 68.1 95.2 68 95.8 67.9 96.5 67.4 96.9 66.7 96.8ZM67.1 106.3C66.8 106.3 66.4 106.3 66.1 106.3 65.8 106.3 65.5 106.3 65.2 106.3 64.9 106.3 64.7 106.2 64.4 106.1 63.8 106 63.5 105.4 63.6 104.8 63.8 104.2 64.4 103.8 65 104 65.2 104 65.3 104 65.5 104 65.9 104.1 66.4 104.1 66.9 104 67.5 103.9 68.1 104.4 68.1 105 68.2 105.6 67.8 106.2 67.1 106.3ZM107.1 85C107.7 84.8 108.4 85.1 108.6 85.7 108.8 86.2 108.9 86.7 108.9 87.2 108.9 87.3 108.9 87.4 108.9 87.5 108.8 87.9 108.8 88.3 108.7 88.6 108.5 89.1 108 89.4 107.6 89.4 107.4 89.4 107.3 89.4 107.2 89.4 106.6 89.2 106.3 88.5 106.5 87.9 106.5 87.8 106.6 87.6 106.6 87.4L106.6 87.2C106.6 87 106.5 86.7 106.4 86.5 106.2 85.9 106.5 85.2 107.1 85ZM102.7 91.7C103.3 91.6 103.8 91.4 104.2 91.1L104.3 91.1C104.8 90.7 105.5 90.8 105.9 91.3 106.3 91.8 106.2 92.5 105.7 92.9L105.5 93C104.9 93.4 104.1 93.8 103.1 94 103.1 94 103 94 102.9 94 102.4 94 101.9 93.6 101.8 93.1 101.7 92.5 102 91.9 102.7 91.7ZM100.7 83.9C100.5 83.3 100.8 82.7 101.5 82.5 102.3 82.3 103.3 82.2 104.2 82.3 104.8 82.4 105.3 83 105.2 83.6 105.1 84.2 104.5 84.7 103.9 84.6 103.3 84.5 102.7 84.6 102.1 84.7 102 84.8 101.9 84.8 101.8 84.8 101.3 84.8 100.8 84.4 100.7 83.9ZM53 112L57.5 76.9 69.9 76.9C70.6 76.9 71.1 77.4 71.1 78 71.1 78.7 70.6 79.2 69.9 79.2L59.5 79.2 55.6 109.7 113.5 109.7 110.1 79.2 99.7 79.2C99.1 79.2 98.6 78.7 98.6 78 98.6 77.4 99.1 76.9 99.7 76.9L112.2 76.9 116 112 53 112ZM98.3 92.1C98.9 92.1 99.5 92.6 99.5 93.2 99.5 93.8 99 94.4 98.4 94.4L96.1 94.5C96.1 94.5 96.1 94.5 96.1 94.5 95.4 94.5 94.9 94 94.9 93.4 94.9 92.8 95.4 92.2 96 92.2L98.3 92.1ZM91.3 92.6C92 92.5 92.5 92.9 92.6 93.5 92.7 94.2 92.3 94.7 91.6 94.8 90.9 94.9 90.1 95 89.5 95.2 89.4 95.2 89.3 95.2 89.2 95.2 88.7 95.2 88.2 94.8 88.1 94.3 88 93.7 88.4 93.1 89 92.9 89.7 92.8 90.5 92.7 91.3 92.6ZM80.3 98.8C80.7 99.3 80.6 100 80.1 100.4 79.4 100.9 78.8 101.3 78.1 101.8 77.9 101.9 77.7 101.9 77.5 101.9 77.1 101.9 76.8 101.8 76.5 101.4 76.2 100.9 76.3 100.2 76.9 99.9 77.5 99.5 78.1 99 78.7 98.6 79.2 98.2 79.9 98.3 80.3 98.8ZM74.5 102.5C74.8 103.1 74.6 103.8 74 104 73.3 104.4 72.5 104.7 71.8 105 71.7 105 71.5 105 71.4 105 70.9 105 70.5 104.8 70.3 104.3 70.1 103.7 70.4 103.1 71 102.8 71.7 102.6 72.3 102.3 73 102 73.6 101.7 74.3 102 74.5 102.5ZM86 95C86 95.1 86 95.1 85.9 95.1 86.2 95.6 86 96.2 85.4 96.5 85 96.7 84.6 96.9 84.3 97.2 84 97.3 83.8 97.4 83.6 97.6 83.4 97.7 83.2 97.8 83 97.8 82.6 97.8 82.3 97.6 82 97.3 81.7 96.8 81.8 96.1 82.3 95.8 82.5 95.6 82.8 95.4 83 95.3 83.2 95.2 83.4 95.1 83.5 95 81.4 92.7 74.5 84.6 71.6 71.2 71.1 68.5 70.9 65.8 71.3 63.4 72.2 55.9 76.9 52 84.8 52 92.6 52 97.3 55.9 98.3 63.4 98.6 65.8 98.5 68.5 97.9 71.2 95 84.7 88 92.9 86 95ZM96 63.7C95.2 57.3 91.5 54.3 84.8 54.3 78 54.3 74.4 57.3 73.5 63.7 73.2 65.9 73.4 68.2 73.9 70.7 76.5 82.9 82.7 90.6 84.8 93 86.9 90.6 93.1 82.9 95.7 70.7 96.2 68.2 96.3 65.9 96 63.7ZM84.8 73.4C80.1 73.4 76.4 69.7 76.4 65.1 76.4 60.5 80.1 56.8 84.8 56.8 89.4 56.8 93.2 60.5 93.2 65.1 93.2 69.7 89.4 73.4 84.8 73.4ZM84.8 59.1C81.4 59.1 78.7 61.8 78.7 65.1 78.7 68.4 81.4 71.2 84.8 71.2 88.2 71.2 90.9 68.4 90.9 65.1 90.9 61.8 88.2 59.1 84.8 59.1Z" fill="rgb(124, 179, 66)"/></svg>
+        								<h4>Удобное расположение</h4>
+        								<p>Мы находимся в центре города, здание удобно расположено, рядом остановки общественного транспорта и парковка</p>
+        			</div>
+        		</div>
+        	</div>
+        </section>
+        <section class="s_form">
+        	<div class="container">
+        		<h2 class="h2">запишитесь на <b>бесплатный урок</b></h2>
+        		<div class="s_form__body">
+        			<form action="/" class="s_form__item">
+        				<div class="s_form__slider">
+        					<div class="s_form__txt">
+        						<h3>Выберите возраст</h3>
+        						<ul>
+        							<li>6-9 лет</li>
+        							<li>12-13 лет</li>
+        							<li class="current">14 лет</li>
+        							<li>15-16 лет</li>
+        							<li>17 лет</li>
+        						</ul>
+        					</div>
+        					<div class="s_form__txt">
+        						<h3>Выберите курс</h3>
+        						<input type="checkbox" name="checkboxG1" id="checkboxG1" class="css-checkbox" />
+								<label for="checkboxG1" class="css-label">Основы робототехники ADRUINO (c 6-ого по 11-ый классы)</label>
+       							<input type="checkbox" name="checkboxG2" id="checkboxG2" class="css-checkbox" />
+								<label for="checkboxG2" class="css-label">Системное администрирование (идеально подходит для 5-11 классов)-ый классы)</label>
+       							<input type="checkbox" name="checkboxG3" id="checkboxG3" class="css-checkbox" />
+								<label for="checkboxG3" class="css-label">Основы робототехники ADRUINO (c 6-ого по 11-ый классы)</label>
+        					</div>
+        					<div class="s_form__txt">
+        						<h3>КОНТАКТНЫЕ ДАНнЫЕ</h3>
+        						<div class="s_form__txt_inputs">
+        							<input type="text" class="g_input" name="name" placeholder="Ваше имя">
+        							<input type="text" class="g_input" name="phone" placeholder="Ваш номер телефона">
+        							<input type="hidden" id="age" name="age">
+        						</div>
+								<p>Наш менеджер перезвонит вам в течении 15 минут. Засекайте!</p>
+        					</div>
+        				</div>
+        				<div class="s_form__bot">
+        					<div class="s_form__bot_steps">
+        						<div class="s_form__bot_step active">
+        							<small><svg xmlns="http://www.w3.org/2000/svg" width="14" height="11"><path d="M0 6C0 6 0 6 0 6 0 6 0 5 0 5L1 5C1 4 1 4 2 5L2 5 5 8C5 8 5 8 5 8L12 0 12 0 12 0 12 0C13 0 13 0 13 0L14 1C14 1 14 1 14 2L14 2 14 2 5 11C5 11 5 11 5 11 5 11 5 11 4 11L0 6 0 6Z" fill="rgb(255, 255, 255)"/></svg></small>
+									<span>Шаг 1</span>
+        						</div>
+        						<div class="s_form__bot_step">
+        							<small><svg xmlns="http://www.w3.org/2000/svg" width="14" height="11"><path d="M0 6C0 6 0 6 0 6 0 6 0 5 0 5L1 5C1 4 1 4 2 5L2 5 5 8C5 8 5 8 5 8L12 0 12 0 12 0 12 0C13 0 13 0 13 0L14 1C14 1 14 1 14 2L14 2 14 2 5 11C5 11 5 11 5 11 5 11 5 11 4 11L0 6 0 6Z" fill="rgb(255, 255, 255)"/></svg></small>
+									<span>Шаг 2</span>
+        						</div>
+        						<div class="s_form__bot_step">
+        							<small><svg xmlns="http://www.w3.org/2000/svg" width="14" height="11"><path d="M0 6C0 6 0 6 0 6 0 6 0 5 0 5L1 5C1 4 1 4 2 5L2 5 5 8C5 8 5 8 5 8L12 0 12 0 12 0 12 0C13 0 13 0 13 0L14 1C14 1 14 1 14 2L14 2 14 2 5 11C5 11 5 11 5 11 5 11 5 11 4 11L0 6 0 6Z" fill="rgb(255, 255, 255)"/></svg></small>
+									<span>Шаг 3</span>
+        						</div>
+        					</div>
+        					<a href="#" class="btn btn_outline"><span>СЛЕДУЮЩИЙ ШАГ</span><svg xmlns="http://www.w3.org/2000/svg" width="41" height="16"><path d="M32.8 0.3C32.5-0.1 31.9-0.1 31.6 0.3 31.2 0.6 31.2 1.2 31.6 1.5L37.9 7.1 0.9 7.1C0.4 7.1 0 7.5 0 8 0 8.5 0.4 8.9 0.9 8.9L37.9 8.9 31.6 14.4C31.2 14.8 31.2 15.3 31.6 15.7 31.9 16.1 32.5 16.1 32.8 15.7L40.7 8.6C41.1 8.3 41.1 7.7 40.7 7.3L32.8 0.3Z" fill="rgb(255, 255, 255)"/></svg></a>
+        				</div>
+        			</form>
+        		</div>
+        	</div>
+        </section>
+        <section class="s_news">
+        	<div class="container">
+        		<div class="s_news__body">
+        			<div class="s_news__block" style="background-image:url('http://placehold.it/650x210'); width: 650px; height: 220px;">
+        				<small>6-10 лет</small>
+						<h4>Подготовка к ЕГЭ по информатике</h4>
+						<a href="#" class="btn btn_outline"><span>Подробнее</span><svg xmlns="http://www.w3.org/2000/svg" width="41" height="16"><path d="M32.8 0.3C32.5-0.1 31.9-0.1 31.6 0.3 31.2 0.6 31.2 1.2 31.6 1.5L37.9 7.1 0.9 7.1C0.4 7.1 0 7.5 0 8 0 8.5 0.4 8.9 0.9 8.9L37.9 8.9 31.6 14.4C31.2 14.8 31.2 15.3 31.6 15.7 31.9 16.1 32.5 16.1 32.8 15.7L40.7 8.6C41.1 8.3 41.1 7.7 40.7 7.3L32.8 0.3Z" fill="rgb(255, 255, 255)"/></svg></a>
+        			</div>
+        			<div class="s_news__block" style="background-image:url('http://placehold.it/482x518'); width: 460px; height: 480px;">
+        				<small>6-10 лет</small>
+						<h4>Введение в программирование в 1с предприятие 8</h4>
+						<a href="#" class="btn btn_outline"><span>Подробнее</span><svg xmlns="http://www.w3.org/2000/svg" width="41" height="16"><path d="M32.8 0.3C32.5-0.1 31.9-0.1 31.6 0.3 31.2 0.6 31.2 1.2 31.6 1.5L37.9 7.1 0.9 7.1C0.4 7.1 0 7.5 0 8 0 8.5 0.4 8.9 0.9 8.9L37.9 8.9 31.6 14.4C31.2 14.8 31.2 15.3 31.6 15.7 31.9 16.1 32.5 16.1 32.8 15.7L40.7 8.6C41.1 8.3 41.1 7.7 40.7 7.3L32.8 0.3Z" fill="rgb(255, 255, 255)"/></svg></a>
+        			</div>
+        			<div class="s_news__block" style="background-image:url('http://placehold.it/650x210'); width: 650px; height: 220px;">
+        				<small>5-11 классы</small>
+						<h4>Системное администрирование</h4>
+						<a href="#" class="btn btn_outline"><span>Подробнее</span><svg xmlns="http://www.w3.org/2000/svg" width="41" height="16"><path d="M32.8 0.3C32.5-0.1 31.9-0.1 31.6 0.3 31.2 0.6 31.2 1.2 31.6 1.5L37.9 7.1 0.9 7.1C0.4 7.1 0 7.5 0 8 0 8.5 0.4 8.9 0.9 8.9L37.9 8.9 31.6 14.4C31.2 14.8 31.2 15.3 31.6 15.7 31.9 16.1 32.5 16.1 32.8 15.7L40.7 8.6C41.1 8.3 41.1 7.7 40.7 7.3L32.8 0.3Z" fill="rgb(255, 255, 255)"/></svg></a>
+        			</div>
+        			<div class="s_news__block" style="background-image:url('http://placehold.it/350x450'); width: 400px; height: 450px;">
+        				<small>5-11 классы</small>
+						<h4>Олимпиадное программирование</h4>
+						<a href="#" class="btn btn_outline"><span>Подробнее</span><svg xmlns="http://www.w3.org/2000/svg" width="41" height="16"><path d="M32.8 0.3C32.5-0.1 31.9-0.1 31.6 0.3 31.2 0.6 31.2 1.2 31.6 1.5L37.9 7.1 0.9 7.1C0.4 7.1 0 7.5 0 8 0 8.5 0.4 8.9 0.9 8.9L37.9 8.9 31.6 14.4C31.2 14.8 31.2 15.3 31.6 15.7 31.9 16.1 32.5 16.1 32.8 15.7L40.7 8.6C41.1 8.3 41.1 7.7 40.7 7.3L32.8 0.3Z" fill="rgb(255, 255, 255)"/></svg></a>
+        			</div>
+        			<div class="s_news__block" style="background-image:url('http://placehold.it/750x473'); width: 750px; height: 450px;">
+        				<small>5-11 классы</small>
+						<h3>ЗАНИМАТЕЛЬНАЯ РОБОТОТЕХНИКа Lego WEDO</h3>
+						<ul>
+							<li>1 занятие бесплатно</li>
+						</ul>
+						<a href="#" class="btn btn_outline"><span>Подробнее</span><svg xmlns="http://www.w3.org/2000/svg" width="41" height="16"><path d="M32.8 0.3C32.5-0.1 31.9-0.1 31.6 0.3 31.2 0.6 31.2 1.2 31.6 1.5L37.9 7.1 0.9 7.1C0.4 7.1 0 7.5 0 8 0 8.5 0.4 8.9 0.9 8.9L37.9 8.9 31.6 14.4C31.2 14.8 31.2 15.3 31.6 15.7 31.9 16.1 32.5 16.1 32.8 15.7L40.7 8.6C41.1 8.3 41.1 7.7 40.7 7.3L32.8 0.3Z" fill="rgb(255, 255, 255)"/></svg></a>
+						<a href="#" class="btn btn_green"><span>зАПИСАТЬСЯ НА БЕСПЛАТНОЕ ЗАНЯТИЕ</span></a>
+        			</div>
+        		</div>
+        	</div>
+        </section>
+        <section class="s_stock">
+        	<div class="container">
+        		<h2 class="h2 h2_blue"><span>Акции и скидки</span></h2>
+        		<div class="s_stock__blocks">
+        			<a href="#" class="s_stock__blocks_item">
+        				<span><svg xmlns="http://www.w3.org/2000/svg" width="70" height="49"><path d="M22.5 14.5C26.4 14.5 29.6 11.2 29.6 7.2 29.6 3.2 26.4 0 22.5 0 18.5 0 15.3 3.2 15.3 7.2 15.3 11.2 18.5 14.5 22.5 14.5ZM22.5 3.5C24.5 3.5 26.2 5.1 26.2 7.2 26.2 9.3 24.5 11 22.5 11 20.4 11 18.7 9.3 18.7 7.2 18.7 5.1 20.4 3.5 22.5 3.5ZM45.8 14.5C49.7 14.5 52.9 11.2 52.9 7.2 52.9 3.2 49.7 0 45.8 0 41.9 0 38.7 3.2 38.7 7.2 38.7 11.2 41.9 14.5 45.8 14.5ZM45.8 3.5C47.8 3.5 49.5 5.1 49.5 7.2 49.5 9.3 47.8 11 45.8 11 43.7 11 42.1 9.3 42.1 7.2 42.1 5.1 43.7 3.5 45.8 3.5ZM33 30.3L35.6 24.2C36.8 21.3 39 17.4 44.1 17.4L47.5 17.4C52.5 17.4 54.7 21.3 56 24.2L58.6 30.3C58.9 31.1 58.5 32.2 57.7 32.5 56.8 32.9 55.8 32.5 55.4 31.6L52.9 25.5C51.4 22.2 49.9 20.8 47.5 20.8L44.1 20.8C41.7 20.8 40.1 22.2 38.7 25.5L36.1 31.6C35.8 32.3 35.2 32.7 34.6 32.7 34.3 32.7 34.1 32.6 33.9 32.5 33 32.2 32.6 31.1 33 30.3ZM70 36.1C69.8 36.9 69.5 37.9 68.2 38.8 65.9 40.5 61.1 41.2 55.3 41.2 48.8 41.2 41 40.3 33.8 38.9 24.8 37.3 16.5 34.9 10.4 32.3 3.3 29.2 0 26.3 0.5 23.3 1 20.1 5.3 19.2 6.7 18.9 7.6 18.7 8.5 19.4 8.7 20.3 8.9 21.2 8.3 22.1 7.4 22.3 4.2 23 3.8 23.8 3.8 23.8 3.8 24.1 4.9 26 10.7 28.7L12.6 24.2C13.8 21.3 16.1 17.4 21.1 17.4L24.5 17.4C27.1 17.4 29.2 18.4 30.9 20.4 31.5 21.2 31.4 22.3 30.6 22.9 29.9 23.5 28.8 23.4 28.2 22.6 27.2 21.4 26.1 20.8 24.5 20.8L21.1 20.8C18.7 20.8 17.1 22.2 15.7 25.5L13.8 30C19.5 32.2 26.7 34.1 34.4 35.6 51.1 38.7 63.3 38.1 66.2 36 66.5 35.8 66.6 35.6 66.6 35.6 66.6 35.6 66.6 34.7 63.9 33 63.1 32.5 62.8 31.4 63.3 30.6 63.9 29.8 64.9 29.5 65.7 30.1 68.9 32.1 70.3 34.1 70 36.1ZM67.7 43.5C68.4 44.1 68.4 45.2 67.8 45.9 65.8 48.1 60.6 49 54.1 49 47.7 49 39.9 48.1 32.6 46.8 16.8 43.8 3.9 38.9 0.4 34.5 -0.2 33.8-0.1 32.7 0.6 32.1 1.4 31.5 2.4 31.6 3 32.3 5.5 35.5 16.7 40.3 33.2 43.4 52 46.9 63.5 45.6 65.3 43.6 66 42.9 67 42.8 67.7 43.5Z" fill="rgb(124, 179, 66)"/></svg></span>
+        				<h4>Приведи 2 друзей, и получи 15% скидку на курс</h4>
+        			</a>
+        			<a class="s_stock__blocks_item" href="#">
+        				<span><svg xmlns="http://www.w3.org/2000/svg" width="68" height="63"><path d="M67.5 26.5L33.9 51.8 30.3 51.3 29.8 54.9 20.6 61.8C20.1 62.2 19.3 62.1 18.8 61.5L0.2 37.2C-0.2 36.7-0.1 35.9 0.5 35.5L9.7 28.6 13.3 29.1 13.7 25.5 47.4 0.2C47.9-0.2 48.7-0.1 49.2 0.5L67.8 24.8C68.2 25.3 68.1 26.1 67.5 26.5ZM47.9 3L16.1 26.9 15.8 29.4 15.4 31.9 12.9 31.6 10.4 31.2 3.1 36.7 20.1 59 27.4 53.5 27.7 51 28.1 48.5 30.6 48.8 33.2 49.2 64.9 25.3 47.9 3ZM28.9 28.5C27.2 26.3 27.6 23.1 29.8 21.4 32.1 19.7 35.3 20.1 37 22.4 38.7 24.6 38.3 27.8 36 29.5 33.8 31.2 30.6 30.7 28.9 28.5ZM30.9 27C31.8 28.1 33.4 28.3 34.5 27.4 35.6 26.6 35.8 25 35 23.9 34.1 22.8 32.5 22.6 31.4 23.4 30.3 24.2 30.1 25.8 30.9 27ZM41.1 13C41.6 12.5 42.4 12.6 42.9 13.2 43.1 13.5 43.1 13.8 43.1 14.1L39.7 39C39.6 39.3 39.5 39.7 39.2 39.9 38.6 40.3 37.8 40.2 37.4 39.6 37.2 39.3 37.1 39 37.1 38.7L40.6 13.8C40.6 13.5 40.8 13.2 41.1 13ZM51.4 24.3C53.1 26.6 52.6 29.7 50.4 31.4 48.1 33.1 44.9 32.7 43.2 30.5 41.5 28.2 41.9 25 44.2 23.3 46.4 21.7 49.7 22.1 51.4 24.3ZM45.3 28.9C46.1 30 47.7 30.3 48.8 29.4 50 28.6 50.2 27 49.3 25.9 48.5 24.7 46.9 24.5 45.7 25.4 44.6 26.2 44.4 27.8 45.3 28.9ZM25.4 47C25 46.5 25.1 45.7 25.6 45.2 26.2 44.8 27 44.9 27.4 45.5 27.9 46.1 27.8 46.8 27.2 47.3 26.6 47.7 25.8 47.6 25.4 47ZM22.3 43C21.9 42.4 22 41.6 22.5 41.2 23.1 40.8 23.9 40.9 24.3 41.4 24.8 42 24.7 42.8 24.1 43.2 23.5 43.6 22.7 43.5 22.3 43ZM19.2 38.9C18.8 38.4 18.9 37.6 19.4 37.2 20 36.7 20.8 36.8 21.2 37.4 21.7 38 21.6 38.8 21 39.2 20.4 39.6 19.6 39.5 19.2 38.9ZM16.1 34.9C15.7 34.3 15.8 33.5 16.3 33.1 16.9 32.7 17.7 32.8 18.1 33.4 18.6 33.9 18.5 34.7 17.9 35.1 17.3 35.6 16.5 35.4 16.1 34.9Z" fill="rgb(124, 179, 66)"/></svg></span>
+        				<h4>Если 2 курса, то - 15% на курсы</h4>
+        			</a>
+        			<a class="s_stock__blocks_item" href="#">
+        				<span><svg xmlns="http://www.w3.org/2000/svg" width="70" height="58"><path d="M63 56.3C63 57.3 62.3 58 61.4 58L57.7 58C57.7 58 57.7 58 57.7 58 56.8 58 56 57.3 56 56.3L56 43.2C56 42.3 56.8 41.5 57.7 41.5 58.6 41.5 59.3 42.3 59.3 43.2L59.3 54.7 61.4 54.7C62.3 54.7 63 55.4 63 56.3ZM9.7 6C9.7 2.7 12.4 0 15.7 0 19 0 21.7 2.7 21.7 6 21.7 9.3 19 12.1 15.7 12.1 12.4 12.1 9.7 9.3 9.7 6ZM13 6C13 7.5 14.2 8.7 15.7 8.7 17.1 8.7 18.3 7.5 18.3 6 18.3 4.5 17.1 3.3 15.7 3.3 14.2 3.3 13 4.5 13 6ZM49.8 23.5C48.9 23.5 48.1 24.2 48.1 25.1L48.1 37.3 48.1 37.3C48.1 38.2 48.9 39 49.8 38.9L58.9 38.9C58.9 38.9 58.9 38.9 58.9 38.9 59.8 38.9 60.5 38.2 60.5 37.3L60.5 25.1C60.5 24.2 59.8 23.5 58.9 23.5 58 23.5 57.2 24.2 57.2 25.1L57.2 35.6 51.4 35.6 51.4 25.1C51.4 24.2 50.7 23.5 49.8 23.5ZM29 32.9C29 29.6 31.7 26.9 35 26.9 38.3 26.9 41 29.6 41 32.9 41 36.2 38.3 38.9 35 38.9 31.7 38.9 29 36.2 29 32.9ZM32.3 32.9C32.3 34.4 33.5 35.6 35 35.6 36.5 35.6 37.7 34.4 37.7 32.9 37.7 31.4 36.5 30.2 35 30.2 33.5 30.2 32.3 31.4 32.3 32.9ZM69.9 36.6L66.4 23.1C64.9 19.5 62.3 14.7 56.4 14.7L52.2 14.7C46.3 14.7 43.7 19.5 42.3 23.1L41.2 25.8C40.8 26.7 41.2 27.7 42.1 28 42.9 28.3 43.9 27.9 44.2 27.1L45.4 24.3C47.1 19.9 49.2 18 52.2 18L56.4 18C59.5 18 61.5 19.9 63.3 24.3L66.8 37.9C67.1 38.6 67.7 38.9 68.3 38.9 68.5 38.9 68.8 38.9 69 38.8 69.8 38.5 70.2 37.5 69.9 36.6ZM48.3 6C48.3 2.7 51 0 54.3 0 57.6 0 60.3 2.7 60.3 6 60.3 9.3 57.6 12.1 54.3 12.1 51 12.1 48.3 9.3 48.3 6ZM51.7 6C51.7 7.5 52.9 8.7 54.3 8.7 55.8 8.7 57 7.5 57 6 57 4.5 55.8 3.3 54.3 3.3 52.9 3.3 51.7 4.5 51.7 6ZM27.9 28C28.8 27.7 29.2 26.7 28.8 25.8L27.7 23.1C26.3 19.5 23.7 14.7 17.8 14.7L13.6 14.7C7.7 14.7 5.1 19.5 3.6 23.1L0.1 36.6C-0.2 37.5 0.2 38.5 1 38.8 1.2 38.9 1.5 38.9 1.7 38.9 2.3 38.9 2.9 38.6 3.2 37.9L6.7 24.3C8.5 19.9 10.5 18 13.6 18L17.8 18C20.8 18 22.9 19.9 24.6 24.3L25.8 27.1C26.1 27.9 27.1 28.3 27.9 28ZM51 41.5C50.1 41.5 49.3 42.3 49.3 43.2L49.3 54.7 47.3 54.7C46.4 54.7 45.6 55.4 45.6 56.3 45.6 57.3 46.4 58 47.3 58L51 58C51 58 51 58 51 58 51.9 58 52.7 57.3 52.7 56.3L52.7 56.3 52.7 43.2C52.7 42.3 51.9 41.5 51 41.5ZM14 46.5C14 45.6 13.2 44.9 12.3 44.9 11.4 44.9 10.7 45.6 10.7 46.5L10.7 54.7 8.6 54.7C7.7 54.7 7 55.4 7 56.3 7 57.3 7.7 58 8.6 58L12.3 58C12.3 58 12.3 58 12.3 58 12.6 58 12.8 57.9 13 57.8 13.6 57.6 14 57 14 56.3 14 56.3 14 56.3 14 56.3L14 46.5ZM41.7 41L35 41C35 41 35 41 35 41L28.3 41C27.3 41 26.6 41.8 26.6 42.7 26.6 43.6 27.3 44.4 28.3 44.4L33.3 44.4 33.3 45.9C33.3 46.9 34.1 47.6 35 47.6 35.9 47.6 36.7 46.9 36.7 45.9L36.7 44.4 41.7 44.4C42.7 44.4 43.4 43.6 43.4 42.7 43.4 41.8 42.7 41 41.7 41ZM41.4 54.7L39.6 54.7 39.6 51.2C39.6 50.3 38.8 49.5 37.9 49.6L32.1 49.6C31.2 49.5 30.4 50.3 30.4 51.2L30.4 54.7 28.6 54.7C27.7 54.7 27 55.4 27 56.3 27 57.3 27.7 58 28.6 58L32 58C32.2 58 32.4 58 32.5 57.9 33.2 57.7 33.7 57.1 33.7 56.3 33.7 56.3 33.7 56.3 33.7 56.3L33.7 52.9 36.3 52.9 36.3 56.3C36.3 57.3 37 58 37.9 58 38 58 38 58 38 58L41.4 58C42.3 58 43 57.3 43 56.3 43 55.4 42.3 54.7 41.4 54.7ZM14 28.8L14 25.1C14 24.2 13.2 23.5 12.3 23.5 11.4 23.5 10.7 24.2 10.7 25.1L10.7 28.5 7.3 40.2C7.3 40.2 7.3 40.3 7.3 40.4 7.3 40.6 7.3 40.8 7.3 41 7.4 41.2 7.4 41.4 7.6 41.6 7.7 41.8 8 42 8.2 42.2 8.2 42.2 8.2 42.2 8.2 42.2 8.4 42.2 8.5 42.3 8.6 42.3 8.7 42.3 8.8 42.3 8.9 42.3 8.9 42.3 9 42.3 9 42.3L22.4 42.3C22.5 42.3 22.6 42.3 22.7 42.3 22.8 42.3 23 42.2 23.1 42.2 23.4 42 23.6 41.8 23.8 41.6 23.9 41.4 24 41.2 24 41 24.1 40.8 24.1 40.6 24 40.4 24 40.3 24 40.2 24 40.2L20.7 28.5 20.7 25.1C20.7 24.2 19.9 23.5 19 23.5 18.1 23.5 17.3 24.2 17.3 25.1L17.3 28.8C17.3 28.9 17.4 29.1 17.4 29.2L20.2 39 11.1 39 13.9 29.2C14 29.1 14 28.9 14 28.8ZM22.7 54.7L20.7 54.7 20.7 46.5C20.7 45.6 19.9 44.9 19 44.9 18.1 44.9 17.3 45.6 17.3 46.5L17.3 56.3C17.3 57.3 18.1 58 19 58 19 58 19 58 19 58L22.7 58C23.6 58 24.4 57.3 24.4 56.3 24.4 55.4 23.6 54.7 22.7 54.7Z" fill="rgb(124, 179, 66)"/></svg></span>
+        				<h4>Для семьи (братья, сестры) -15%</h4>
+        			</a>
+        			<a class="s_stock__blocks_item" href="#">
+        				<span><svg xmlns="http://www.w3.org/2000/svg" width="56" height="67"><path d="M56 50.6C56 51.1 55.7 51.5 55.3 51.8L28.6 66.8C28.6 66.8 28.6 66.8 28.6 66.8 28.3 66.9 28.1 67 27.9 67 27.6 67 27.4 66.9 27.2 66.8L0.7 51.9C0.3 51.6 0 51.2 0 50.7L0 18.6C0 18.3 0.1 18 0.3 17.8 0.4 17.6 0.6 17.4 0.8 17.2L8.1 13.3C8.3 13.2 8.5 13.1 8.7 13.1L8.7 11C8.7 9.1 11.2 7.6 14.6 7.6 15.9 7.6 17.1 7.8 18.1 8.2 18.2 8.1 18.3 8 18.5 7.9L22.3 5.9C22.3 5.9 22.4 5.9 22.4 5.9L22.4 3.4C22.4 1.5 25 0 28.3 0 31.7 0 34.2 1.5 34.2 3.4L34.2 6.3C34.3 6.3 34.3 6.3 34.4 6.3L37.8 8.1C37.9 8.2 38 8.2 38 8.3 39 7.8 40.3 7.6 41.7 7.6 45.1 7.6 47.6 9 47.6 11 47.6 11 47.6 11 47.6 11L47.6 13.2C47.7 13.2 47.7 13.2 47.7 13.3L55 17.2C55 17.3 55.1 17.3 55.1 17.3 55.2 17.4 55.3 17.4 55.3 17.4 55.8 17.7 56 18.1 56 18.6L56 50.6ZM2.8 49.9L26.5 63.2 26.5 34.4 2.8 21 2.8 49.9ZM10.8 11C10.8 11.4 12.2 12.3 14.6 12.3 17 12.3 18.4 11.4 18.4 11 18.4 10.6 17.1 9.7 14.6 9.7 12.1 9.7 10.8 10.6 10.8 11ZM18.4 13.6C17.4 14.1 16.1 14.4 14.6 14.4 13.1 14.4 11.8 14.1 10.8 13.6L10.8 17.5C10.8 17.9 12.1 18.8 14.6 18.8 17.1 18.8 18.4 17.9 18.4 17.5L18.4 13.6ZM28.3 2.1C26 2.1 24.5 3 24.5 3.4 24.5 3.8 26 4.7 28.3 4.7 30.7 4.7 32.2 3.8 32.2 3.4 32.2 3 30.8 2.1 28.3 2.1ZM32.2 6C31.1 6.5 29.8 6.8 28.3 6.8 26.9 6.8 25.6 6.5 24.5 6L24.5 9.9C24.5 10.3 26 11.2 28.3 11.2 30.7 11.2 32.2 10.3 32.2 9.9L32.2 6ZM41.7 9.7C39.4 9.7 37.9 10.6 37.9 11 37.9 11.4 39.4 12.3 41.7 12.3 44.1 12.3 45.5 11.4 45.5 11 45.5 10.6 44.2 9.7 41.7 9.7ZM45.5 13.6C44.5 14.1 43.2 14.4 41.7 14.4 40.2 14.4 38.9 14.1 37.9 13.6L37.9 17.5C37.9 17.9 39.4 18.8 41.7 18.8 44.2 18.8 45.5 17.9 45.5 17.5L45.5 13.6ZM47.6 16.4L47.6 17.5C47.6 19.4 45.1 20.9 41.7 20.9 38.4 20.9 35.8 19.4 35.8 17.5L35.8 11C35.8 11 35.8 11 35.8 11 35.8 10.7 35.9 10.5 35.9 10.3L34.2 9.4 34.2 9.9C34.2 11.8 31.7 13.3 28.3 13.3 25 13.3 22.4 11.8 22.4 9.9L22.4 9 20.3 10.1C20.4 10.4 20.5 10.7 20.5 11L20.5 17.5C20.5 19.4 17.9 20.9 14.6 20.9 11.2 20.9 8.7 19.4 8.7 17.5L8.7 16.1 4.2 18.6 27.9 32 51.8 18.6 47.6 16.4ZM29.3 34.5L29.3 63.2 53.2 49.7 53.2 21 29.3 34.5ZM22.4 24.9L22.4 18.5C22.4 18.5 22.4 18.5 22.4 18.5 22.4 18.5 22.4 18.5 22.4 18.5 22.4 16.5 24.9 15 28.3 15 31.6 15 34.2 16.5 34.2 18.5 34.2 18.5 34.2 18.5 34.2 18.5 34.2 18.5 34.2 18.5 34.2 18.5L34.2 24.9C34.2 26.9 31.6 28.4 28.3 28.4 24.9 28.4 22.4 26.9 22.4 24.9ZM24.4 24.9C24.4 25.4 25.9 26.3 28.3 26.3 30.7 26.3 32.1 25.3 32.1 24.9L32.1 21.1C31 21.6 29.7 21.9 28.3 21.9 26.8 21.9 25.5 21.6 24.4 21.1L24.4 24.9ZM28.3 19.8C30.6 19.8 32.1 18.9 32.1 18.5 32.1 18.1 30.7 17.1 28.3 17.1 25.9 17.1 24.4 18.1 24.4 18.5 24.4 18.9 25.9 19.8 28.3 19.8Z" fill="rgb(124, 179, 66)"/></svg></span>
+        				<h4>Lego WeDo - первое занятие + соревнование с награждением кубками - <span>БЕСПЛАТНО</span></h4>
+        			</a>
+        		</div>
+        	</div>
+        </section>
+        <footer class="footer">
+        	<div class="container">
+				<div class="footer__top">
+					<div class="footer__left">
+						<form action="/">
+							<svg xmlns="http://www.w3.org/2000/svg" width="64" height="53"><path d="M50.1 53C44 53 38.8 49 36.9 43.5L1.1 43.5C0.9 43.5 0.8 43.4 0.7 43.4 0.7 43.4 0.6 43.4 0.6 43.3 0.5 43.3 0.4 43.2 0.4 43.2 0.3 43.2 0.3 43.1 0.3 43.1 0.2 43 0.2 43 0.1 42.9 0.1 42.9 0.1 42.8 0.1 42.8 0.1 42.8 0.1 42.8 0.1 42.7 0 42.6 0 42.5 0 42.4 0 42.4 0 42.4 0 42.4L0 1.1C0 1.1 0 1 0 1 0 0.9 0 0.8 0.1 0.7 0.1 0.7 0.1 0.7 0.1 0.7 0.1 0.6 0.1 0.6 0.1 0.6 0.2 0.5 0.2 0.4 0.3 0.4 0.3 0.3 0.3 0.3 0.4 0.3 0.4 0.2 0.5 0.2 0.6 0.1 0.6 0.1 0.7 0.1 0.7 0.1 0.8 0 0.9 0 1.1 0L60.8 0C60.9 0 61.1 0 61.2 0.1 61.2 0.1 61.2 0.1 61.3 0.1 61.4 0.2 61.4 0.2 61.5 0.3 61.5 0.3 61.6 0.3 61.6 0.4 61.6 0.4 61.7 0.5 61.7 0.6 61.8 0.6 61.8 0.6 61.8 0.7 61.8 0.7 61.8 0.7 61.8 0.7 61.8 0.8 61.9 0.9 61.9 1 61.9 1 61.9 1.1 61.9 1.1L61.9 31.9C63.2 34 64 36.5 64 39.2 64 46.8 57.8 53 50.1 53ZM36.4 41.3C36.4 41.3 36.4 41.2 36.4 41.1 36.4 40.9 36.3 40.6 36.3 40.4 36.3 40 36.3 39.6 36.3 39.2 36.3 38.7 36.3 38.2 36.4 37.7 36.4 37.5 36.4 37.3 36.4 37.1 36.5 36.9 36.5 36.6 36.6 36.3 36.6 36 36.7 35.8 36.8 35.6 36.8 35.3 36.9 35.1 37 34.9 37.1 34.6 37.2 34.4 37.3 34.1 37.3 33.9 37.4 33.8 37.5 33.6 37.6 33.3 37.7 33.1 37.9 32.8 38 32.6 38.1 32.5 38.1 32.3 38.3 32.1 38.4 31.8 38.6 31.6 38.7 31.4 38.8 31.3 39 31.1 39.2 30.8 39.4 30.5 39.7 30.2 39.9 29.9 40.2 29.7 40.4 29.4 40.5 29.3 40.6 29.2 40.7 29.1 41 28.9 41.3 28.6 41.6 28.4 41.7 28.3 41.7 28.3 41.7 28.3L36.4 23.9 34.8 25.3C33.7 26.2 32.3 26.7 30.9 26.7 29.5 26.7 28.1 26.2 27.1 25.3L25.5 24C19.9 28.9 9 37.5 4.1 41.3L36.4 41.3ZM2.1 40.2C6.5 36.8 18 27.7 23.9 22.5L2.1 3.4 2.1 40.2ZM3.9 2.1L26.3 21.8C26.3 21.8 26.3 21.8 26.4 21.8 26.4 21.8 26.4 21.8 26.4 21.8L28.5 23.7C29.8 24.9 32 24.9 33.4 23.7L35.5 21.9C35.5 21.9 35.5 21.9 35.5 21.9 35.5 21.8 35.5 21.8 35.5 21.8L58 2.1 3.9 2.1ZM59.7 3.4L38 22.5 43.6 27.1C45.5 26 47.8 25.4 50.1 25.4 50.6 25.4 51.1 25.5 51.5 25.5 51.7 25.5 51.9 25.6 52 25.6 52.3 25.6 52.6 25.7 52.9 25.7 53.1 25.7 53.2 25.8 53.4 25.8 53.7 25.9 53.9 26 54.2 26 54.3 26.1 54.5 26.2 54.7 26.2 54.9 26.3 55.2 26.4 55.4 26.5 55.6 26.6 55.7 26.6 55.9 26.7 56.1 26.8 56.4 26.9 56.7 27.1 56.8 27.1 56.9 27.2 57 27.3 57.3 27.4 57.6 27.6 57.8 27.8 57.9 27.8 58 27.9 58.1 28 58.4 28.2 58.6 28.3 58.9 28.5 59 28.6 59.1 28.7 59.2 28.8 59.4 29 59.6 29.1 59.7 29.3L59.7 3.4ZM59.9 32.7C59.6 32.4 59.4 32 59.1 31.7 59 31.6 58.9 31.5 58.8 31.4 58.6 31.2 58.4 31 58.2 30.8 58.1 30.7 57.9 30.5 57.8 30.4 57.6 30.2 57.4 30.1 57.2 29.9 57 29.8 56.9 29.7 56.8 29.6 56.4 29.4 56.1 29.2 55.7 29 55.6 28.9 55.5 28.9 55.5 28.8 55.1 28.7 54.8 28.5 54.5 28.4 54.4 28.4 54.2 28.3 54.1 28.3 53.8 28.2 53.5 28.1 53.3 28 53.1 28 53 27.9 52.8 27.9 52.5 27.8 52.2 27.8 51.9 27.7 51.7 27.7 51.6 27.7 51.5 27.6 51 27.6 50.6 27.6 50.1 27.6 47.9 27.6 45.8 28.2 44 29.3 43.6 29.6 43.2 29.8 42.8 30.1 42.8 30.1 42.8 30.1 42.8 30.1 42.4 30.4 42.1 30.8 41.7 31.1 41.7 31.2 41.6 31.3 41.5 31.4 41.3 31.6 41.1 31.8 40.9 32.1 40.8 32.2 40.7 32.4 40.6 32.5 40.4 32.7 40.3 32.9 40.1 33.1 40 33.3 39.9 33.5 39.8 33.6 39.6 34 39.5 34.3 39.3 34.7 39.2 34.9 39.2 35.1 39.1 35.2 39 35.5 38.9 35.7 38.9 36 38.8 36.2 38.8 36.3 38.7 36.5 38.7 36.8 38.6 37.1 38.6 37.4 38.5 37.5 38.5 37.7 38.5 37.8 38.4 38.3 38.4 38.8 38.4 39.2 38.4 39.7 38.4 40.2 38.5 40.6 38.5 40.7 38.5 40.7 38.5 40.7 38.6 41.2 38.7 41.7 38.8 42.1 40.1 47.2 44.7 50.9 50.1 50.9 56.6 50.9 61.9 45.6 61.9 39.2 61.9 36.8 61.1 34.6 59.9 32.7ZM50.8 44.1C50.6 44.3 50.3 44.5 50.1 44.5 50 44.5 50 44.5 49.9 44.5 49.7 44.5 49.4 44.4 49.2 44.3L44.1 40.1C43.7 39.7 43.6 39.1 44 38.6 44.3 38.2 45 38.1 45.5 38.5L49.7 41.9 55.7 33.4C56 32.9 56.7 32.8 57.1 33.1 57.6 33.5 57.7 34.1 57.4 34.6L50.8 44.1Z" fill="rgb(124, 179, 66)"/></svg>
+							<p>Подписывайтесь на новости и акции</p>
+							<input class="g_input" type="email" name="mail" placeholder="Оставьте свой e-mail">
+							<button type="submit" class="btn btn_green"><span>Подписаться</span></button>
+						</form>
+						<div class="footer__left_company">
+							<div class="footer__left_item">
+								<img src="images/logo_1c.png" alt="">
+								<p>Наша школа официально сертифицированна компанией “1С”</p>
+							</div>
+							<div class="footer__left_item">
+								<img src="images/logo_2.png" alt="">
+								<p>Наша компания является членом Московской областной торово-промышленной компании</p>
+							</div>
+						</div>
+					</div>
+						<div class="footer__right">
+							<a class="footer__right_item" href="#" target="_blank"><span><svg xmlns="http://www.w3.org/2000/svg" width="24" height="13"><path d="M20.7 8.3C21.5 9 22.3 9.7 23 10.5 23.3 10.9 23.6 11.3 23.8 11.7 24.2 12.3 23.9 13 23.3 13L19.8 13C18.9 13.1 18.2 12.7 17.6 12.1 17.1 11.6 16.7 11.1 16.2 10.7 16 10.5 15.8 10.3 15.6 10.1 15.1 9.8 14.7 9.9 14.4 10.4 14.1 10.9 14.1 11.4 14 12 14 12.7 13.7 12.9 12.9 13 11.2 13.1 9.5 12.8 7.9 12 6.5 11.2 5.5 10.1 4.6 8.9 2.7 6.6 1.4 4 0.1 1.4 -0.2 0.8 0 0.5 0.7 0.5 1.9 0.4 3 0.4 4.2 0.5 4.6 0.5 4.9 0.7 5.1 1.1 5.7 2.6 6.5 4 7.4 5.2 7.7 5.6 7.9 5.9 8.3 6.2 8.7 6.4 9 6.3 9.2 5.9 9.3 5.6 9.4 5.3 9.4 5.1 9.5 4 9.5 3 9.4 2 9.3 1.4 8.9 1 8.2 0.9 7.9 0.8 7.9 0.7 8.1 0.5 8.4 0.2 8.7 0 9.2 0L13.1 0C13.8 0.1 13.9 0.4 14 1L14 5.2C14 5.4 14.1 6.1 14.5 6.3 14.9 6.4 15.1 6.1 15.3 5.9 16.3 4.9 16.9 3.8 17.6 2.6 17.8 2.1 18 1.6 18.3 1 18.4 0.6 18.7 0.4 19.2 0.4L23 0.4C23.1 0.4 23.2 0.4 23.3 0.5 23.9 0.6 24.1 0.8 23.9 1.4 23.6 2.4 23 3.2 22.4 3.9 21.8 4.8 21.1 5.6 20.5 6.4 19.9 7.2 19.9 7.6 20.7 8.3L20.7 8.3Z" fill="rgb(124, 179, 66)"/></svg></span><small>vk.com/programmingschool</small></a>
+						<div class="footer__right_item">
+							<span><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18"><path d="M18 14.2C18 14.5 17.9 14.8 17.7 15L15.2 17.5C15.1 17.6 14.9 17.7 14.7 17.8 14.6 17.9 14.4 18 14.2 18 14.2 18 14.1 18 14.1 18 14 18 13.9 18 13.8 18 13.6 18 13.2 18 12.7 17.9 12.1 17.8 11.5 17.6 10.7 17.3 9.9 16.9 9 16.5 8 15.8 7 15.2 6 14.3 4.9 13.1 4 12.3 3.2 11.4 2.7 10.6 2.1 9.8 1.6 9.1 1.2 8.4 0.9 7.7 0.6 7.1 0.4 6.5 0.3 6 0.1 5.5 0.1 5.1 0 4.7 0 4.4 0 4.2 0 3.9 0 3.8 0 3.8 0 3.6 0.1 3.4 0.2 3.2 0.3 3.1 0.4 2.9 0.5 2.8L3.1 0.3C3.2 0.1 3.4 0 3.7 0 3.8 0 4 0 4.1 0.1 4.2 0.2 4.3 0.4 4.4 0.5L6.5 4.4C6.6 4.6 6.6 4.8 6.6 5 6.5 5.3 6.4 5.5 6.2 5.6L5.3 6.6C5.3 6.6 5.3 6.6 5.2 6.7 5.2 6.8 5.2 6.8 5.2 6.8 5.3 7.1 5.4 7.4 5.5 7.8 5.7 8.1 5.9 8.4 6.3 8.9 6.6 9.3 7 9.8 7.6 10.4 8.2 11 8.7 11.4 9.1 11.8 9.6 12.1 9.9 12.3 10.2 12.5 10.5 12.6 10.8 12.7 10.9 12.7L11.2 12.8C11.2 12.8 11.2 12.8 11.3 12.8 11.4 12.7 11.4 12.7 11.4 12.7L12.5 11.6C12.7 11.4 13 11.3 13.3 11.3 13.5 11.3 13.7 11.3 13.8 11.4L13.8 11.4 17.5 13.6C17.8 13.7 17.9 13.9 18 14.2Z" fill="rgb(124, 179, 66)"/></svg></span>
+							<div class="footer__right_itemwrp">
+								<a href="tel:84962499684"><small>8 49624 9-96-84</small></a>
+								<a href="tel:89162224593"><small>8 916 222-45-93</small></a>
+							</div>
+						</div>
+						<a href="#" target="_blank" class="footer__right_item"><span><svg xmlns="http://www.w3.org/2000/svg" width="14" height="20"><path d="M13.7 5C13.6 4.7 13.5 4.4 13.3 4.2 12 1.1 9.2 0 6.9 0 3.8 0 0.5 2 0 6.2L0 7.1C0 7.1 0 7.4 0 7.6 0.3 9.6 1.9 11.7 3.1 13.7 4.4 15.8 5.7 17.9 7 20 7.8 18.6 8.6 17.2 9.4 15.9 9.6 15.5 9.9 15.1 10.1 14.8 10.3 14.5 10.5 14.3 10.7 14 11.9 11.7 14 9.4 14 7.1L14 6.1C14 5.9 13.7 5 13.7 5ZM7 9.3C6.1 9.3 5.1 8.8 4.6 7.6 4.5 7.4 4.5 7 4.5 7L4.5 6.4C4.5 4.9 5.9 4.1 7 4.1 8.5 4.1 9.6 5.3 9.6 6.7 9.6 8.1 8.4 9.3 7 9.3Z" fill="rgb(124, 179, 66)"/></svg></span>
+						<small>г. Клин, улица Захватаева, 4</small></a>
+						<a href="mailto:info@club1c.online" class="footer__right_item"><span><svg xmlns="http://www.w3.org/2000/svg" width="20" height="14"><path d="M13.1 7.1L20 1.2 20 12.9 13.1 7.1ZM0.5 0.4C0.7 0.1 1.1 0 1.4 0L18.6 0C18.9 0 19.3 0.1 19.5 0.4L10 8.4 0.5 0.4ZM0 12.9L0 1.2 6.9 7.1 0 12.9ZM10 9.8L12.5 7.7 19.5 13.6C19.3 13.9 18.9 14 18.6 14L1.4 14C1.1 14 0.7 13.9 0.5 13.6L7.5 7.7 10 9.8Z" fill="rgb(124, 179, 66)"/></svg></span><small>info@club1c.online</small></a>
+					</div>
+				</div>
+        	</div>
+        	<div class="footer__bot">
+        		<div class="container">
+        			<h6>© 2010-2017 Группа компаний «Двойная запись».</h6>
+					<p>Сделанно в <a href="http://markello.ru/" target="_blank">Markello</a></p>
+        		</div>
+        	</div>
+        </footer>
+
+        <div class="overlay"></div>
+		<div class="popup _call">
+			<div class="close_pop"><span>&times;</span></div>
+			<h3 class="h2 h2_green"><span>Заказать звонок</span></h3>
+			<form action="/" class="popup__form">
+				<input type="text" class="g_input" name="name" placeholder="Ваше имя">
+				<input type="text" class="g_input" name="phone" placeholder="Номер телефона">
+				<button type="submit" class="btn btn_green"><span>Отправить</span></button>
+			</form>
+		</div>
+       <div class="popup _thnx">
+			<div class="close_pop"><span>&times;</span></div>
+			<h3 class="h2 h2_green"><span>Спасибо!</span></h3>
+		</div>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="vendor/jquery-3.1.1.min"><\/script>')</script>
+        <script src="vendor/freewall.js"></script>
+        <script src="vendor/lightslider/js/lightslider.min.js"></script>
+        <script src="vendor/jquery.validate.min.js"></script>
+        <script src="vendor/lightgallery/js/lightgallery.min.js"></script>
+        <script src="vendor/jquery.maskedinput.min.js"></script>
+        <script src="vendor/jquery.sticky.js"></script>
+        <script src="js/main.js"></script>
+		<script src="_trg.js"></script>
+    </body>
+</html>

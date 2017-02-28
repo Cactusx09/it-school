@@ -1,0 +1,73 @@
+<svg id="Группа_8" data-name="Группа 8" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="77" height="110" viewBox="0 0 77 110">
+  <metadata><?xpacket begin="﻿" id="W5M0MpCehiHzreSzNTczkc9d"?>
+<x:xmpmeta xmlns:x="adobe:ns:meta/" x:xmptk="Adobe XMP Core 5.6-c138 79.159824, 2016/09/14-01:09:01        ">
+   <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <rdf:Description rdf:about=""/>
+   </rdf:RDF>
+</x:xmpmeta>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<?xpacket end="w"?></metadata>
+<defs>
+    <style>
+      .cls-1 {
+        fill: #7cb342;
+        filter: url(#filter);
+      }
+
+      .cls-2 {
+        fill: #fff;
+        filter: url(#filter-2);
+      }
+
+      .cls-2, .cls-3, .cls-4 {
+        fill-rule: evenodd;
+      }
+
+      .cls-3 {
+        fill: #0074ff;
+      }
+
+      .cls-4 {
+        fill: #a6a8aa;
+      }
+    </style>
+    <filter id="filter" x="16" y="65" width="45" height="45" filterUnits="userSpaceOnUse">
+      <feOffset result="offset" dy="6" in="SourceAlpha"/>
+      <feGaussianBlur result="blur" stdDeviation="3.162"/>
+      <feFlood result="flood" flood-color="#001729" flood-opacity="0.25"/>
+      <feComposite result="composite" operator="in" in2="blur"/>
+      <feBlend result="blend" in="SourceGraphic"/>
+    </filter>
+    <filter id="filter-2" x="768" y="1302" width="77" height="98" filterUnits="userSpaceOnUse">
+      <feOffset result="offset" dy="6" in="SourceAlpha"/>
+      <feGaussianBlur result="blur" stdDeviation="3.162"/>
+      <feFlood result="flood" flood-color="#001729" flood-opacity="0.25"/>
+      <feComposite result="composite" operator="in" in2="blur"/>
+      <feBlend result="blend" in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <circle id="Эллипс_2" data-name="Эллипс 2" class="cls-1" cx="38" cy="81" r="13"/>
+  <path id="Эллипс_1" data-name="Эллипс 1" class="cls-2" d="M806,1305a29.142,29.142,0,0,1,29,29.28c0,16.18-29.842,49.72-29,49.72,0.17,0-29-33.54-29-49.72A29.142,29.142,0,0,1,806,1305Z" transform="translate(-768 -1302)"/>
+  <path id="Rounded_Rectangle_30_копия" data-name="Rounded Rectangle 30 копия" class="cls-3" d="M815.3,1349h-17.09a1.03,1.03,0,0,1-1.036-1.02v-5.61L792,1336.24l10.875,5.62,13.464-6.13v12.25A1.029,1.029,0,0,1,815.3,1349Z" transform="translate(-768 -1302)"/>
+  <path id="Shape_2_копия" data-name="Shape 2 копия" class="cls-4" d="M802.875,1339.31l-5.7-3.07v-11.22a1.03,1.03,0,0,1,1.036-1.02H815.3a1.029,1.029,0,0,1,1.035,1.02v5.61H821Z" transform="translate(-768 -1302)"/>
+</svg>
