@@ -86,6 +86,20 @@ $(document).ready(function(){
 		zIndex: 9999999
 	});
 
+	//
+	if($('*').is('.s_main__slider')){
+		$('.s_main__slider').lightSlider({
+			item: 1,
+			slideMargin: 0,
+			controls: false,
+			loop: true,
+			speed: 1000,
+			auto: true,
+			pause: 7000,
+			pauseOnHover: true
+		});
+	}
+
 	//form steps
 	var sl_steps = $('.s_form__slider').lightSlider({
 		item: 1,
