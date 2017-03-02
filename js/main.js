@@ -310,6 +310,10 @@ $(document).ready(function(){
         moreLink: '<a href="#" class="s_about__more"><span>Читать далее</span><svg xmlns="http://www.w3.org/2000/svg" width="21" height="12"><path d="M14.8 0.2C14.6-0.1 14.1-0.1 13.9 0.2 13.6 0.5 13.6 0.9 13.9 1.2L18.7 5.3 0.7 5.3C0.3 5.3 0 5.6 0 6 0 6.4 0.3 6.7 0.7 6.7L18.7 6.7 13.9 10.8C13.6 11.1 13.6 11.5 13.9 11.8 14.1 12.1 14.6 12.1 14.8 11.8L20.8 6.5C21 6.2 21 5.8 20.8 5.5L14.8 0.2Z" fill="rgb(0, 23, 41)"/></svg></a>',
         lessLink: '<a href="#" class="s_about__more"><span>Свернуть</span><svg xmlns="http://www.w3.org/2000/svg" width="21" height="12"><path d="M14.8 0.2C14.6-0.1 14.1-0.1 13.9 0.2 13.6 0.5 13.6 0.9 13.9 1.2L18.7 5.3 0.7 5.3C0.3 5.3 0 5.6 0 6 0 6.4 0.3 6.7 0.7 6.7L18.7 6.7 13.9 10.8C13.6 11.1 13.6 11.5 13.9 11.8 14.1 12.1 14.6 12.1 14.8 11.8L20.8 6.5C21 6.2 21 5.8 20.8 5.5L14.8 0.2Z" fill="rgb(0, 23, 41)"/></svg></a>',
     });
+	//stoch fix
+	$('.s_stock__blocks_item').click(function(e){
+		e.preventDefault();
+	});
 });
 
 //gmap init

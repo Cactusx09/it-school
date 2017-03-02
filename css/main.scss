@@ -1686,6 +1686,7 @@ article{
 			min-height: 140px;
 			padding: 25px 30px;
 			@extend ._flex_fs_c;
+			cursor: default;
 			transition: $t*2;
 			svg{
 				margin-right: 25px;
