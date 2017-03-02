@@ -1,4 +1,4 @@
-$(document).ready(function(){
+jQuery(document).ready(function($){
 
 	//gallery grid
 	if (window.matchMedia('(min-width: 769px)').matches) {
@@ -239,25 +239,25 @@ $(document).ready(function(){
 	});
 
 
-	//mask
-	$('input[name="phone"]').mask('+7 (999) 999-99-99');
+//mask
+	$('input[name="usr_phone"]').mask('+7 (999) 999-99-99');
 
 
-	//validate
+	// validate
 	$("form").each(function () {
 		var it = $(this);
 		it.validate({
 			rules: {
-				name: {required: true},
-				phone: {required: true},
-				mail: {required: true}
+				usr_name: {required: true},
+				usr_phone: {required: true},
+				usr_email: {required: true}
 			},
 			messages: {},
 			errorPlacement: function (error, element) {},
 			submitHandler: function (form) {
 				$.ajax({
 					type: "POST",
-					url: "../mail.php",
+					url: "/",
 					data: it.serialize()
 				}).done(function () {
 					$('.popup').removeClass('visible');
@@ -269,6 +269,7 @@ $(document).ready(function(){
 							$('.popup._thnx, .overlay').removeClass('visible');
 						}
 					}, 2800);
+					$("form").trigger( 'reset' );
 				});
 				return false;
 			},
@@ -281,6 +282,7 @@ $(document).ready(function(){
 			}
 		});
 	});
+
 
 
 	//faq

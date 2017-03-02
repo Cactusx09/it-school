@@ -559,6 +559,8 @@ article{
 		margin: -15px;
 	}
 	&._courses{
+		padding-top: 50px;
+		font-size: .92em;
 		.g_blocks__block{
 			text-align: left;
 			display: flex;
@@ -566,9 +568,12 @@ article{
 			align-items: flex-start;
 			justify-content: flex-start;
 			margin-bottom: 27px;
-			margin-top: 27px;
+			margin-top: 0px;
 			hr {
 				width: 100%;
+			}
+			small{
+				margin-bottom: 4px;
 			}
 			p{
 				font-size: 1em;
@@ -605,7 +610,7 @@ article{
 			padding-top: 45px;
 			padding-bottom: 45px;
 			h3{
-				font-size: 1.63em;
+				font-size: 1.5em;
 				font-weight: 700;
 				line-height: 1.4;
 				text-transform: uppercase;
@@ -656,7 +661,7 @@ article{
 			}
 		}
 		small{
-			font-size: 18px;
+			font-size: 1.13em;
 			color: $g;
 			display: block;
 			margin-bottom: 15px;
@@ -788,7 +793,7 @@ article{
    ========================================================== */
 
 .s_main{
-	padding: 150px 0;
+	padding: 100px 0 120px;
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
@@ -850,10 +855,10 @@ article{
 			color: #fff;
 			padding-left: 18px;
 			border-left: 4px solid $g;
-			margin-bottom: 65px;
+			margin-bottom: 45px;
 		}
 		ul{
-			margin-bottom: 50px;
+			margin-bottom: 40px;
 			li{
 				font-size: 1.25em;
 				font-weight: 400;
@@ -876,12 +881,12 @@ article{
 		position: absolute;
 		left: 100%;
 		margin-left: -24px;
-		bottom: -203px;
+		bottom: -170px;
 		z-index: 0;
 		&._web-dev{
 			img{
 				margin-left: -140px;
-				margin-top: -111px;
+				margin-top: -100px;
 			}
 		}
 		&:before{
@@ -921,7 +926,8 @@ article{
 	}
 	&__slider{
 		.s_main{
-			height: 880px;
+			min-height: 750px;
+			height: 100%;
 		}
 		&_wrp{
 			position: relative;
@@ -1476,6 +1482,7 @@ article{
 			margin-top: 5px;
 			padding-top: 3px;
 			margin-bottom: 35px !important;
+			display: block;
 		}
 		&_inputs{
 			@extend ._flex_sb_c;
@@ -2460,6 +2467,7 @@ article{
 	}
 }
 .s_courses{
+	padding: 40px 0 50px;
 	ul{
 		@extend ._flex_fs_fs;
 		li{
