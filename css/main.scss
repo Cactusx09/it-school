@@ -588,8 +588,13 @@ article{
 		background-color: #ffffff;
 		width: calc(32% - 15px);
 		margin: 14px;
+		overflow: hidden;
 		padding: 37px 29px;
 		text-align: center;
+		transition: $t;
+		&:hover{
+			box-shadow: 0 4px 4px rgba(0, 23, 41, 0.25);
+		}
 		&_head{
 			@extend ._flex_sb_c;
 			h4{
@@ -639,12 +644,48 @@ article{
 		}
 		&_img{
 			margin-bottom: 25px;
-			min-height: 160px;
+			min-height: 190px;
 			margin-left: -29px;
 			margin-right: -29px;
+			margin-top: -37px;
+			padding-top: 37px;
 			background-position: center;
 			background-repeat: no-repeat;
 			background-size: cover;
+			position: relative;
+			&._video{
+				&:after{
+					content: '';
+					position: absolute;
+					background: url('../images/ico/video.png') no-repeat ;
+					left: 0;
+					top: 0;
+					width: 100%;
+					height: 100%;
+					z-index: 5;
+					background-position: center;
+					transition: $t;
+				}
+				&:before{
+					content: '';
+					position: absolute;
+					background-color: $db;
+					left: 0;
+					top: 0;
+					z-index: 5;
+					width: 100%;
+					opacity: 0.7;
+					height: 100%;
+				}
+				&:hover{
+					&:after{
+						opacity: 0.4;
+					}
+					&:before{
+						opacity: 0.6;
+					}
+				}
+			}
 		}
 		h4{
 			font-size: 1.6em;
@@ -1098,7 +1139,7 @@ article{
 		}
 	}
 	&__txt{
-		min-width: 580px;
+		min-height: 579px;
 		h3{
 			font-size: 2.5em;
 			font-weight: 700;
