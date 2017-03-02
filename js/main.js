@@ -97,7 +97,17 @@ jQuery(document).ready(function($){
 			speed: 1000,
 			auto: true,
 			pause: 7000,
-			pauseOnHover: true
+			pauseOnHover: true,
+			responsive : [
+				{
+					breakpoint:1120,
+					settings: {
+						auto: false,
+						adaptiveHeight: true,
+						speed: 500
+					  }
+				}
+			]
 		});
 	}
 
