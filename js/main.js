@@ -76,7 +76,8 @@ $(document).ready(function(){
 	//reviews pager
 	$('.s_reviews__right span').click(function(){
 		var n = $(this).index();
-		$('.s_reviews__txt').eq(n).addClass('current').siblings().removeClass('current');
+		$('.s_reviews__txt').eq(n).addClass('current')
+			.siblings().removeClass('current');
 		$(this).addClass('current').siblings().removeClass('current');
 	});
 
@@ -118,11 +119,12 @@ $(document).ready(function(){
 		var current_slide = $('.s_form__txt.active');
 		var n = sl_steps.getCurrentSlideCount();
 		if(n==2){
-			current_slide.find('input').each(function(){
+			var current_tab = current_slide.find('.s_form__txt_tab._active');
+			current_tab.find('input').each(function(){
 				if($(this).prop('checked')){
 					sl_steps.goToNextSlide();
 					$('.s_form__bot .btn')
-						.html('<span>Записатся на занятие</span>')
+						.html('<span>Записаться на занятие</span>')
 						.addClass('btn_green').removeClass('btn_blue');
 				}else{
 					$(this).next().addClass('_error');
@@ -149,8 +151,13 @@ $(document).ready(function(){
 		}
 	});
 	$('.s_form__txt li').click(function(){
-		$(this).addClass('current').siblings().removeClass('current');
-		$(this).closest('.s_form__slider').find('#age').val($(this).text());
+		var el = $(this),
+			n = el.index();
+		el.addClass('current').siblings().removeClass('current');
+		el.closest('.s_form__slider').find('#age').val($(this).text());
+		el.closest('.s_form__slider').find('.s_form__txt_tab')
+			.eq(n).show().addClass('_active')
+			.siblings().hide().removeClass('_active');
 	});
 
 

@@ -546,6 +546,9 @@ article{
 			border-color: $g;
 		}
 	}
+	strong{
+		font-weight: 600;
+	}
 }
 
 .g_blocks{
@@ -1921,6 +1924,7 @@ article{
 				font-size: 1.13em;
 				line-height: 1.33;
 				margin: 15px 0;
+				max-width: 633px;
 				position: relative;
 				padding-left: 20px;
 				margin-left: 20px;
