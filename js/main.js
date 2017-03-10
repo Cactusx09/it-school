@@ -170,6 +170,30 @@ jQuery(document).ready(function($){
 			.siblings().hide().removeClass('_active');
 	});
 
+	//404
+	if($('*').is('.s_404')){
+		setTimeout(function(){
+			var nout = $('.s_404 .s_main__robot');
+			nout.addClass('_broken');
+			nout.find('img').attr('src','images/404_broken.png');
+			$(".s_404__right h2").typed({
+				strings: ["Похоже ^350, что вы потерялись","Возвращаю назад через <b>3</b>"],
+				typeSpeed: 35,
+				callback: function() {
+					$('.typed-cursor').hide();
+					var n = '2';
+					var timer = setInterval(function(){
+						$(".s_404__right h2 b").text(n);
+						n--;
+						if(n==-1){
+							history.back();
+							clearInterval(timer);
+						}
+					},1000);
+				}
+			});
+		},1500);
+	}
 
 	//news grid
 	if (window.matchMedia('(min-width: 651px)').matches) {
